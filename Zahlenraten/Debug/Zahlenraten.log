@@ -1,0 +1,9 @@
+﻿  Zahlenraten.cpp
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(89,2): error C2601: "Spielen": Lokale Funktionsdefinitionen sind unzulässig
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(22): message : Diese Zeile enthält eine "{", die keine Entsprechung hat.
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(120,2): error C2601: "waehlelevel": Lokale Funktionsdefinitionen sind unzulässig
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(22): message : Diese Zeile enthält eine "{", die keine Entsprechung hat.
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(130,2): error C2601: "ZeigeInfo": Lokale Funktionsdefinitionen sind unzulässig
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(22): message : Diese Zeile enthält eine "{", die keine Entsprechung hat.
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(136,2): error C2601: "TesteHighscore": Lokale Funktionsdefinitionen sind unzulässig
+D:\C++\C++ Projekte\Zahlenraten\Zahlenraten.cpp(22): message : Diese Zeile enthält eine "{", die keine Entsprechung hat.
