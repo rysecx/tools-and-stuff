@@ -1,0 +1,1167 @@
+Liste aller offiziellen und inoffiziellen Ports:
+
+0 	– 	UDP 	reserviert 	offiziell
+1 	TCP 	UDP 	TCP Port Service Multiplexer (TCPMUX) 	offiziell
+2 	TCP 	UDP 	CompressNET[1] Management Utility[2] 	offiziell
+3 	TCP 	UDP 	CompressNET[1] Compression Process[3] 	offiziell
+4 	TCP 	UDP 	Mesh Connection Protocol 	inoffiziell
+5 	TCP 	UDP 	Remote Job Entry 	offiziell
+6 	UDP 	UDP 	nicht zugewiesen 	offiziell
+7 	TCP 	UDP 	Echo 	offiziell
+8 	TCP 	UDP 	nicht zugewiesen 	offiziell
+9 	TCP 	UDP 	Discard 	offiziell
+10 	TCP 	UDP 	nicht zugewiesen 	offiziell
+11 	TCP 	UDP 	Systeminformationen über den (systat-Service[4]) 	offiziell
+12 	TCP 	UDP 	nicht zugewiesen 	offiziell
+13 	TCP 	UDP 	Daytime (RFC 867) 	offiziell
+14 	TCP 	UDP 	nicht zugewiesen 	offiziell
+15 	TCP 	UDP 	netstat Service[4] 	inoffiziell
+16 	TCP 	UDP 	nicht zugewiesen 	offiziell
+17 	TCP 	UDP 	Quote of the Day (QOTD) – Protokoll, um eine kurze „Nachricht des Tages“ zu übermitteln 	offiziell
+18 	TCP 	UDP 	Message Send Protocol – Protokoll, um Textnachrichten zwischen Computern zu übermitteln 	offiziell
+19 	TCP 	UDP 	Character Generator Protocol (CHARGEN) 	offiziell
+20 	TCP 	– 	FTP – Datenübertragung 	offiziell
+21 	TCP 	UDP 	FTP – Verbindungsaufbau und Steuerung 	offiziell
+22 	TCP 	UDP 	Secure Shell (SSH) wird für verschlüsselte Fernwartung und Dateiübertragung genutzt (scp, sftp) sowie für getunnelte Portweiterleitung 	offiziell
+23 	TCP 	– 	Telnet – unverschlüsseltes Textprotokoll, z. B. für Fernwartung (ähnlich SSH, mit telnetd) 	offiziell
+24 	TCP 	UDP 	Priv-mail: Private E-Mail-Systeme. 	offiziell
+24 	TCP 	UDP 	LMTP (Local Mail Transport Protocol) 	inoffiziell
+25 	TCP 	– 	Simple Mail Transfer Protocol (SMTP) wird für die E-Mail-Übermittlung zwischen E-Mail-Servern genutzt und findet sehr breite Unterstützung. 	offiziell
+26 	TCP 	UDP 	nicht zugewiesen 	offiziell
+34 	TCP 	UDP 	Remote File (RF), genutzt, um Dateien zwischen Rechnern auszutauschen. 	inoffiziell
+35 	TCP 	UDP 	Private Druckserverprotokolle 	offiziell
+37 	TCP 	UDP 	Das TIME-Protokoll wird genutzt, um übergreifend und plattformunabhängig die maschinenlesbare Zeit auszuliefern 	offiziell
+39 	TCP 	UDP 	Das Resource Location Protocol (RLP) wird genutzt, um den Ort höherer Netzwerkdienste, die von Hosts angeboten werden, in einem Netzwerk zu bestimmen.[5] 	offiziell
+40 	TCP 	UDP 	nicht zugewiesen 	offiziell
+41 	TCP 	UDP 	Grafiken 	offiziell
+42 	TCP 	UDP 	Nameserver, ARPA Host Name Server Protocol 	offiziell
+42 	TCP 	UDP 	WINS 	inoffiziell
+43 	TCP 	– 	Whois-Protokoll 	offiziell
+47 	TCP 	UDP 	NI FTP[5] 	offiziell
+49 	TCP 	UDP 	TACACS Login Host Protocol 	offiziell
+50 	TCP 	UDP 	Remote Mail Checking Protocol[6] 	offiziell
+51 	TCP 	UDP 	IMP Logical Address Maintenance 	offiziell
+52 	TCP 	UDP 	XNS (Xerox Network Systems) Time Protocol 	offiziell
+53 	TCP 	UDP 	Domain Name System (DNS), meist über UDP 	offiziell
+54 	TCP 	UDP 	XNS (Xerox Network Systems) Clearinghouse 	offiziell
+55 	TCP 	UDP 	ISI Graphics Language (ISI-GL) 	offiziell
+56 	TCP 	UDP 	XNS (Xerox Network Systems) Authentication 	offiziell
+56 	TCP 	UDP 	Route Access Protocol (RAP)[7] 	inoffiziell
+57 	TCP 	– 	Mail Transfer Protocol (MTP) 	inoffiziell
+58 	TCP 	UDP 	XNS (Xerox Network Systems) Mail 	offiziell
+67 	– 	UDP 	Bootstrap Protocol (BOOTP) Server; auch genutzt von DHCP 	offiziell
+68 	– 	UDP 	Bootstrap Protocol (BOOTP) Client; auch genutzt von DHCP 	offiziell
+69 	– 	UDP 	Trivial File Transfer Protocol (TFTP) 	offiziell
+70 	TCP 	– 	Gopher-Protokoll 	offiziell
+71 	TCP 	– 	Genius-Protokoll 	offiziell
+79 	TCP 	– 	Finger 	offiziell
+80 	TCP 	– 	Hypertext Transfer Protocol (HTTP) 	offiziell
+81 	TCP 	– 	Torpark – Onion-Routing 	inoffiziell
+82 	– 	UDP 	Torpark – Control 	inoffiziell
+83 	TCP 	– 	MIT ML Device 	offiziell
+88 	TCP 	UDP 	Kerberos-Authentifizierungssystem 	offiziell
+90 	TCP 	UDP 	dnsix (DoD Network Security for Information Exchange) Securit Attribute Token Map 	offiziell
+90 	TCP 	UDP 	Pointcast 	inoffiziell
+99 	TCP 	– 	WIP Message 	inoffiziell 
+101 	TCP 	– 	NIC host name 	offiziell
+102 	TCP 	– 	ISO-TSAP (Transport Service Access Point) Class 0 protocol[8] 	offiziell
+104 	TCP 	UDP 	ACR/NEMA Digital Imaging and Communications in Medicine 	offiziell
+105 	TCP 	UDP 	CCSO Nameserver Protocol (Qi/Ph) 	offiziell
+107 	TCP 	– 	Remote Telnet Service[9] protocol 	offiziell
+108 	TCP 	UDP 	SNA Gateway Access Server 	offiziell
+109 	TCP 	– 	Post Office Protocol v2 (POP2) 	offiziell
+110 	TCP 	– 	Post Office Protocol v3 (POP3) 	offiziell
+111 	TCP 	UDP 	ONC RPC (SunRPC), v. a. wichtig für NFS (Portmapper) 	offiziell
+113 	TCP 	– 	ident, ein Authentifizierungsprotokoll,[10] genutzt von IRC-Servern, um Nutzer zu identifizieren 	offiziell
+113 	– 	UDP 	Authentication Service[10] (auth) 	offiziell
+115 	TCP 	– 	Simple File Transfer Protocol (SFTP) 	offiziell
+117 	TCP 	– 	UUCP Path Service 	offiziell
+118 	TCP 	UDP 	SQL-(Structured Query Language)-Dienste 	offiziell
+119 	TCP 	– 	Network News Transfer Protocol (NNTP) 	offiziell
+123 	– 	UDP 	Network Time Protocol (NTP) zur (hoch)genauen Zeitsynchronisierung zwischen mehreren Computern 	offiziell
+135 	TCP 	UDP 	DCE Endpunkt-Auflösung 	offiziell
+135 	TCP 	UDP 	Microsoft EPMAP (End Point Mapper), auch bekannt als DCE/RPC Locator Service.[11] 	inoffiziell
+137 	TCP 	UDP 	NetBIOS NetBIOS Name Service 	offiziell
+138 	TCP 	UDP 	NetBIOS NetBIOS Datagram Service 	offiziell
+139 	TCP 	UDP 	NetBIOS NetBIOS Session Service 	offiziell
+143 	TCP 	UDP 	Internet Message Access Protocol (IMAP) – Mail-Management 	offiziell
+148 	TCP 	UDP 	jargon – Jargon-Server 	unbekannt
+152 	TCP 	UDP 	Background File Transfer Program (BFTP)[12] 	offiziell
+153 	TCP 	UDP 	SGMP, Simple Gateway Monitoring Protocol 	offiziell
+156 	TCP 	UDP 	SQL Service 	offiziell
+158 	TCP 	UDP 	DMSP, Distributed Mail Service Protocol 	inoffiziell
+161 	– 	UDP 	Simple Network Management Protocol (SNMP) 	offiziell
+162 	TCP 	UDP 	Simple Network Management Protocol Trap (SNMPTRAP)[13] 	offiziell
+170 	TCP 	– 	Print-srv, Network PostScript 	offiziell
+177 	TCP 	UDP 	X Display Manager Control Protocol (XDMCP) 	offiziell
+179 	TCP 	– 	BGP (Border Gateway Protocol) 	offiziell
+194 	TCP 	UDP 	Internet Relay Chat (IRC) 	offiziell
+199 	TCP 	UDP 	SMUX, SNMP Unix Multiplexer 	offiziell
+201 	TCP 	UDP 	AppleTalk Routing Maintenance 	offiziell
+209 	TCP 	UDP 	Quick Mail Transfer Protocol 	offiziell
+210 	TCP 	UDP 	ANSI Z39.50 	offiziell
+213 	TCP 	UDP 	Internetwork Packet Exchange (IPX) 	offiziell
+218 	TCP 	UDP 	Message posting protocol (MPP) 	offiziell
+220 	TCP 	UDP 	Internet Message Access Protocol (IMAP), version 3 	offiziell
+256 	TCP 	UDP 	2DEV "2SP" Port 	inoffiziell
+259 	TCP 	UDP 	ESRO, Efficient Short Remote Operations 	offiziell
+264 	TCP 	UDP 	BGMP, Border Gateway Multicast Protocol 	offiziell 
+308 	TCP 	– 	Novastor Online Backup 	offiziell
+311 	TCP 	– 	Mac OS X Server Admin (offiziell AppleShare IP Web Administration) 	offiziell
+318 	TCP 	UDP 	PKIX TSP, Time Stamp Protocol 	offiziell
+319 	– 	UDP 	Precision Time Protocol/Events 	offiziell
+320 	– 	UDP 	Precision Time Protocol/General Messages 	offiziell
+323 	TCP 	UDP 	IMMP, Internet Message Mapping Protocol 	inoffiziell
+325 	TCP 	– 	IT-Message Message Event 	inoffiziell
+327 	TCP 	– 	IT-Message Status-Control Event 	inoffiziell
+330 	TCP 	– 	IT-Message Gif Event 	inoffiziell
+350 	TCP 	UDP 	MATIP-Type A, Mapping of Airline Traffic over Internet Protocol. Airline-spezifischer Datenverkehr (Buchungen, Reservierungen, …) über IP 	offiziell
+351 	TCP 	UDP 	MATIP-Type B, Mapping of Airline Traffic over Internet Protocol 	offiziell
+366 	TCP 	UDP 	ODMR, On-Demand Mail Relay 	offiziell
+369 	TCP 	UDP 	Rpc2portmap 	offiziell
+370 	TCP 	UDP 	codaauth2 – Coda authentication server 	offiziell
+371 	TCP 	UDP 	ClearCase albd 	offiziell
+376 	TCP 	UDP 	Amiga Envoy Network Inquiry Protocol 	offiziell
+383 	TCP 	UDP 	HP data alarm manager 	offiziell
+384 	TCP 	UDP 	Ein Remote Network Server System 	offiziell
+387 	TCP 	UDP 	AURP, das AppleTalk Update-based Routing Protocol[14] 	offiziell
+389 	TCP 	UDP 	Lightweight Directory Access Protocol (LDAP) 	offiziell
+401 	TCP 	UDP 	UPS – Uninterruptible Power Supply 	offiziell
+402 	TCP 	– 	Altiris, Altiris Deployment Client 	inoffiziell
+411 	TCP 	– 	Direct Connect Hub 	inoffiziell
+412 	TCP 	– 	Direct Connect Client-to-Client 	inoffiziell
+427 	TCP 	UDP 	Service Location Protocol (SLP) 	offiziell
+443 	TCP 	– 	HTTPS (Hypertext Transfer Protocol over SSL/TLS) 	offiziell
+444 	TCP 	UDP 	SNPP, Simple Network Paging Protocol (RFC 1568) 	offiziell
+445 	TCP 	– 	Microsoft-DS Active Directory, Windows-Freigaben (CIFS) 	offiziell
+445 	TCP 	– 	Microsoft-DS SMB-Freigaben (auch bekannt unter dem Namen der freien Implementierung Samba) 	offiziell
+464 	TCP 	UDP 	Kerberos Change/Set password 	offiziell
+465 	TCP 	– 	URD (URL Rendezvous Directory for SSM) 	offiziell
+465 	TCP 	– 	Message Submission over TLS protocol 	offiziell
+465 	– 	UDP 	IGMP v3lite (IGMP over UDP for SSM) 	offiziell
+475 	TCP 	UDP 	tcpnethaspsrv (Aladdin Knowledge Systems Hasp services, TCP/IP version) 	offiziell
+497 	TCP 	– 	Dantz Retrospect 	offiziell
+500 	– 	UDP 	Internet Security Association and Key Management Protocol (ISAKMP) 	offiziell
+501 	TCP 	– 	STMF, Simple Transportation Management Framework – DOT NTCIP 1101 	inoffiziell
+502 	TCP 	UDP 	asa-appl-proto, Protocol 	inoffiziell
+502 	TCP 	UDP 	Modbus, Protocol 	inoffiziell
+504 	TCP 	UDP 	Citadel: Multidienst-Protokoll für das Citadel-Groupware-Protokoll 	offiziell
+510 	TCP 	– 	First Class Protocol 	inoffiziell
+512 	TCP 	– 	Rexec, Remote Process Execution 	offiziell
+512 	– 	UDP 	comsat und biff 	offiziell
+513 	TCP 	– 	rlogin 	offiziell
+513 	– 	UDP 	Who 	offiziell
+514 	TCP 	– 	rsh wird genutzt, um nicht-interaktiv Kommandos auf entfernten Systemen auszuführen. (via Remote Shell, rsh, remsh) 	offiziell
+514 	– 	UDP 	Syslog für System-Logs 	offiziell
+515 	TCP 	– 	Line Printer Daemon-Druckservices 	offiziell
+517 	– 	UDP 	Talk 	offiziell
+518 	– 	UDP 	NTalk 	offiziell
+520 	TCP 	– 	efs, extended file name server 	offiziell
+520 	– 	UDP 	Routing Information Protocol (RIP) 	offiziell
+521 	– 	UDP 	Routing Information Protocol (RIPng) für die Unterstützung von IPv6 	offiziell
+524 	TCP 	UDP 	NetWare Core Protocol (NCP) wird für viele Dinge genutzt, wie z. B. um primäre NetWare-Server-Freigaben zu nutzen, für Zeit-Synchronisation, … 	offiziell
+525 	– 	UDP 	Timed, ein Zeitserver 	offiziell
+530 	TCP 	UDP 	Courier (RPC) 	offiziell
+531 	TCP 	UDP 	AOL Instant Messenger, IRC 	inoffiziell
+532 	TCP 	– 	netnews 	offiziell
+533 	– 	UDP 	netwall 	offiziell
+540 	TCP 	– 	UUCP (Unix-to-Unix Copy Protocol) 	offiziell
+543 	TCP 	– 	klogin, Kerberos login 	offiziell
+544 	TCP 	– 	kshell, Kerberos Remote shell 	offiziell
+545 	TCP 	– 	OSIsoft PI (VMS), OSISoft PI Server Client Access 	inoffiziell
+546 	TCP 	UDP 	DHCPv6-Client 	offiziell
+547 	TCP 	UDP 	DHCPv6-Server 	offiziell
+548 	TCP 	– 	Apple Filing Protocol (AFP) over TCP 	offiziell
+550 	– 	UDP 	new-rwho, new-who 	offiziell
+554 	TCP 	UDP 	Real-Time Streaming Protocol (RTSP) 	offiziell
+556 	TCP 	– 	Remotefs, RFS, rfs_server 	offiziell
+560 	– 	UDP 	rmonitor, Remote Monitor 	offiziell
+561 	– 	UDP 	monitor 	offiziell
+563 	TCP 	UDP 	NNTP protocol over TLS/SSL (NNTPS) 	offiziell
+587 	TCP 	– 	e-mail message submission[15] (SMTP) 	offiziell
+591 	TCP 	– 	FileMaker 6.0 (and later) Web Sharing (HTTP Alternate, also see port 80) 	offiziell
+593 	TCP 	UDP 	HTTP RPC Ep Map, Remote Procedure Call over Hypertext Transfer Protocol, often used by Distributed Component Object Model services and Microsoft Exchange Server 	offiziell 
+601 	TCP 	UDP 	Reliable Event Logging Protocol; gesicherte Übertragung von Loginformationen für rsyslog[16] 	offiziell
+604 	TCP 	– 	TUNNEL profile,[17] ein Protokoll für BEEP peers um einen Tunnel auf Anwendungsebene zu bilden. 	offiziell
+623 	– 	UDP 	ASF Remote Management and Control Protocol (ASF-RMCP) 	offiziell
+628 	TCP 	– 	MSA (Minecraft Server Administrator) Port 	inoffiziell
+631 	TCP 	UDP 	Internet Printing Protocol (IPP) 	offiziell
+631 	TCP 	UDP 	Common Unix Printing System (CUPS) 	inoffiziell
+635 	TCP 	UDP 	RLZ DBase 	offiziell
+636 	TCP 	UDP 	Lightweight Directory Access Protocol over TLS/SSL (LDAPS) 	offiziell
+639 	TCP 	UDP 	MSDP, Multicast Source Discovery Protocol 	offiziell
+641 	TCP 	UDP 	SupportSoft Nexus Remote Command (control/listening): A proxy gateway connecting remote control traffic 	offiziell
+646 	TCP 	UDP 	LDP, Label Distribution Protocol, a routing protocol used in MPLS networks 	offiziell
+647 	TCP 	– 	DHCP Failover protocol[18] 	offiziell
+648 	TCP 	– 	RRP (Registry Registrar Protocol)[19] 	offiziell
+651 	TCP 	UDP 	IEEE-MMS 	offiziell
+652 	TCP 	– 	DTCP, Dynamic Tunnel Configuration Protocol 	inoffiziell
+653 	TCP 	UDP 	SupportSoft Nexus Remote Command (data): A proxy gateway connecting remote control traffic 	offiziell
+654 	TCP 	– 	Media Management System (MMS) Media Management Protocol (MMP)[20] 	offiziell
+655 	TCP 	UDP 	tinc-VPN (Virtual Private Network)[21] 	inoffiziell
+657 	TCP 	UDP 	IBM RMC (Remote monitoring and Control) protocol, used by System p5 AIX Integrated Virtualization Manager (IVM)[22] and Hardware Management Console to connect managed logical partitions (LPAR) to enable dynamic partition reconfiguration 	offiziell
+660 	TCP 	– 	Mac OS X Server-Administration 	offiziell
+665 	TCP 	– 	sun-dr, Remote Dynamic Reconfiguration 	inoffiziell
+666 	– 	UDP 	Doom, erster online First Person Shooter 	offiziell
+674 	TCP 	– 	ACAP (Application Configuration Access Protocol) 	offiziell
+691 	TCP 	– 	MS Exchange Routing 	offiziell
+692 	TCP 	– 	Hyperwave-ISP 	offiziell
+694 	TCP 	UDP 	Linux-HA High availability Heartbeat 	offiziell
+695 	TCP 	– 	IEEE-MMS-SSL (IEEE Media Management System over SSL)[23] 	offiziell
+698 	– 	UDP 	OLSR (Optimized Link State Routing) 	offiziell
+699 	TCP 	– 	Access Network 	offiziell
+700 	TCP 	– 	EPP (Extensible Provisioning Protocol), a protocol for communication between domain name registries and registrars (RFC 5734) 	offiziell
+701 	TCP 	– 	LMP (Link Management Protocol (Internet)),[24] a protocol that runs between a pair of nodes and is used to manage traffic engineering (TE) links 	offiziell
+702 	TCP 	– 	IRIS[25][26] (Internet Registry Information Service) über BEEP (Blocks Extensible Exchange Protocol)[27] (RFC 3983) 	offiziell
+706 	TCP 	– 	Secure Internet Live Conferencing (SILC) 	offiziell
+711 	TCP 	– 	Cisco Tag Distribution Protocol[28][29][30] being replaced by the MPLS Label Distribution Protocol[31] 	offiziell
+712 	– 	UDP 	Topology Broadcast based on Reverse-Path Forwarding routing protocol (TBRPF) (RFC 3684) 	offiziell
+712 	– 	UDP 	Promise RAID Controller 	inoffiziell
+720 	TCP 	– 	SMQP, Simple Message Queue Protocol 	inoffiziell
+749 	TCP 	UDP 	Kerberos administration 	offiziell
+750 	TCP 	– 	rfile 	offiziell
+750 	– 	UDP 	loadav 	offiziell
+750 	– 	UDP 	kerberos-iv, Kerberos version IV 	offiziell
+751 	TCP 	UDP 	pump 	offiziell
+751 	TCP 	UDP 	kerberos_master, Kerberos authentication 	inoffiziell
+752 	TCP 	UDP 	qrh 	offiziell
+752 	– 	UDP 	passwd_server, Kerberos Password (kpasswd) server 	inoffiziell
+753 	TCP 	– 	Reverse Routing Header (rrh)[32] 	offiziell
+753 	– 	UDP 	Reverse Routing Header (rrh) 	offiziell
+753 	– 	UDP 	userreg_server, Kerberos userreg Server 	inoffiziell
+754 	TCP 	– 	tell send 	offiziell
+754 	TCP 	– 	krb5_prop, Kerberos v5 slave propagation 	inoffiziell
+754 	– 	UDP 	tell send 	offiziell
+760 	TCP 	UDP 	ns 	offiziell
+760 	TCP 	UDP 	krbupdate [kreg], Kerberos registration 	inoffiziell
+782 	TCP 	– 	Conserver serial-console management server 	inoffiziell
+783 	TCP 	– 	SpamAssassin spamd daemon 	inoffiziell
+829 	TCP 	– 	CMP (Certificate Management Protocol) 	inoffiziell
+843 	TCP 	– 	Adobe Flash socket policy server 	inoffiziell
+847 	TCP 	– 	DHCP Failover protocol 	offiziell
+853 	TCP 	– 	DNS over TLS (RFC 7858) (RFC 8310) 	offiziell
+860 	TCP 	– 	iSCSI (RFC 3720) 	offiziell
+873 	TCP 	– 	rsync Datei-Synchronisationsprotokoll 	offiziell (nur USA)
+888 	TCP 	– 	cddbp, CD DataBase (CDDB) protocol (CDDBP) 	inoffiziell
+901 	TCP 	– 	Samba Web Administration Tool (SWAT) 	inoffiziell
+901 	TCP 	UDP 	VMware Virtual Infrastructure Client (UDP from server being managed to management console) 	inoffiziell
+901 	– 	UDP 	VMware Virtual Infrastructure Client (UDP from server being managed to management console) 	inoffiziell
+902 	TCP 	– 	ideafarm-door 902/tcp self documenting Door: send 0x00 for info 	offiziell
+902 	TCP 	– 	VMware Server Console 	inoffiziell
+902 	– 	UDP 	ideafarm-door 	offiziell
+902 	– 	UDP 	VMware Server Console (UDP from server being managed to management console) 	inoffiziell
+903 	TCP 	– 	VMware Remote Console[33] 	inoffiziell
+904 	TCP 	– 	VMware Server Alternate (if 902 is in use, i. e. SUSE linux) 	inoffiziell
+911 	TCP 	– 	Network Console on Acid (NCA) – local tty redirection over OpenSSH 	inoffiziell
+953 	TCP 	UDP 	Domain Name System (DNS) RNDC Service 	inoffiziell
+981 	TCP 	– 	SofaWare Technologies Remote-HTTPS-Management für eingebettete Firewalls mit Check Point FireWall-1 	inoffiziell
+987 	TCP 	– 	externer SSL Zugriff auf die "CompanyWeb"-Seite am Windows SBS2011 	inoffiziell
+989 	TCP 	UDP 	FTPS Protocol (data): FTP over TLS/SSL 	offiziell
+990 	TCP 	UDP 	FTPS Protocol (control): FTP over TLS/SSL 	offiziell
+991 	TCP 	UDP 	NAS (Netnews Administration System) 	offiziell
+992 	TCP 	UDP 	TELNET protocol over TLS/SSL 	offiziell
+993 	TCP 	– 	Internet Message Access Protocol over TLS/SSL (IMAPS) 	offiziell
+995 	TCP 	– 	Post Office Protocol 3 over TLS/SSL (POP3S) 	offiziell
+999 	TCP 	– 	ScimoreDB Database System 	inoffiziell
+1001 	TCP 	– 	JtoMB 	inoffiziell
+1002 	TCP 	– 	Opsware agent (aka cogbot) 	inoffiziell
+1023 	TCP 	UDP 	reserviert[34] 	offiziell 
+1024 	TCP 	UDP 	reserviert 	offiziell
+1025 	TCP 	– 	NFS, IIS oder Teradata 	inoffiziell
+1026 	TCP 	– 	DCOM 	inoffiziell
+1029 	TCP 	– 	DCOM 	inoffiziell
+1058 	TCP 	UDP 	nim, IBM AIX Network Installation Manager (NIM) 	offiziell
+1059 	TCP 	UDP 	nimreg, IBM AIX Network Installation Manager (NIM) 	offiziell
+1061 	TCP 	UDP 	PROmobile 	inoffiziell
+1080 	TCP 	– 	SOCKS proxy 	offiziell
+1085 	TCP 	UDP 	WebObjects 	offiziell
+1098 	TCP 	UDP 	rmiactivation, RMI Aktivierung 	offiziell
+1099 	TCP 	UDP 	rmiregistry, RMI Registry 	offiziell
+1100 	TCP 	– 	FastTransmitter Protokoll 	inoffiziell
+1109 	– 	UDP 	reserviert 	offiziell
+1109 	TCP 	– 	reserviert 	offiziell
+1109 	TCP 	– 	Kerberos Post Office Protocol (KPOP) 	inoffiziell
+1110 	– 	UDP 	EasyBits School network discovery protocol (für Intels CMPC Plattform) 	inoffiziell
+1140 	TCP 	UDP 	AutoNOC Protokoll 	offiziell
+1167 	– 	UDP 	Telefon, Telefonkonferenzen 	inoffiziell
+1169 	TCP 	UDP 	Tripwire 	offiziell
+1176 	TCP 	– 	Perceptive Automation Indigo Home automation Server 	offiziell
+1182 	TCP 	UDP 	AcceleNet Intelligent Transfer Protocol 	offiziell
+1194 	TCP 	UDP 	OpenVPN 	offiziell
+1198 	TCP 	UDP 	The cajo project – dynamisches, transparentes, verteiltes Rechnen, geschrieben in Java 	offiziell
+1200 	TCP 	– 	scol[35] 	offiziell
+1200 	– 	UDP 	scol 	offiziell
+1200 	– 	UDP 	Steam Friends Applet 	inoffiziell
+1214 	TCP 	– 	Kazaa 	offiziell
+1217 	TCP 	– 	Uvora Online 	inoffiziell
+1220 	TCP 	– 	QuickTime Streaming Server Administration 	offiziell
+1223 	TCP 	UDP 	TGP, TrulyGlobal 	offiziell
+1234 	– 	UDP 	VLC media player – Voreingestellter Port für UDP/RTP-Streaming 	inoffiziell
+1236 	TCP 	– 	Symantec BindView Control UNIX Voreingestellter Port für TCP-Server-Management 	inoffiziell
+1241 	TCP 	UDP 	Nessus Security Scanner 	offiziell
+1270 	TCP 	UDP 	Microsoft System Center Operations Manager (SCOM) 	offiziell
+1293 	TCP 	UDP 	IPsec (Internet Protocol Security) 	offiziell
+1301 	TCP 	– 	Palmer Performance OBDNet 	inoffiziell
+1303 	TCP 	– 	Hyperion 	inoffiziell
+1309 	TCP 	– 	Altera Quartus jtagd 	inoffiziell
+1311 	TCP 	– 	Dell OpenManage HTTPS 	offiziell
+1313 	TCP 	– 	Xbiim (Canvii server) 	inoffiziell
+1319 	TCP 	– 	AMX ICSP 	offiziell
+1337 	– 	UDP 	Men and Mice DNS 	offiziell
+1337 	TCP 	– 	Men and Mice DNS 	offiziell
+1337 	TCP 	– 	PowerFolder Ein P2P-Programm mit Verschlüsselung 	inoffiziell
+1337 	TCP 	– 	WASTE 	inoffiziell
+1352 	TCP 	– 	IBM Lotus Notes/Domino[36] (RPC) Protokoll 	offiziell
+1387 	TCP 	UDP 	cadsi-lm, LMS International (auch Computer Aided Design Software, Inc. (CADSI)) LM 	offiziell
+1414 	TCP 	– 	IBM WebSphere MQ (früher bekannt als MQSeries) 	offiziell
+1417 	TCP 	UDP 	Timbuktu Service 1 Port 	offiziell
+1418 	TCP 	UDP 	Timbuktu Service 2 Port 	offiziell
+1419 	TCP 	UDP 	Timbuktu Service 3 Port 	offiziell
+1420 	TCP 	UDP 	Timbuktu Service 4 Port 	offiziell
+1431 	TCP 	– 	Reverse Gossip Transport Protocol (RGTP) 	offiziell
+1433 	TCP 	– 	MSSQL (Microsoft SQL Server) 	offiziell
+1434 	TCP 	UDP 	MSSQL (Microsoft SQL Server) Monitor 	offiziell
+1470 	TCP 	– 	Solarwinds Kiwi Log Server 	offiziell
+1494 	TCP 	– 	Citrix XenApp Independent Computing Architecture (ICA) thin Client Protokoll 	offiziell
+1500 	TCP 	– 	NetGuard GuardianPro Firewall (NT4-based) Remote Management 	inoffiziell
+1501 	– 	UDP 	NetGuard GuardianPro Firewall (NT4-based) Authentication Client 	inoffiziell
+1503 	TCP 	UDP 	Windows Live Messenger 	inoffiziell
+1512 	TCP 	UDP 	Microsoft Windows Internet Name Service (WINS) 	offiziell
+1513 	TCP 	UDP 	Garena Garena Gaming Client 	offiziell
+1521 	TCP 	– 	nCube License Manager 	offiziell
+1521 	TCP 	– 	Oracle Datenbank, zukünftig jedoch 2483 	inoffiziell
+1524 	TCP 	UDP 	ingreslock, ingres 	offiziell
+1526 	TCP 	– 	Oracle Datenbank 	inoffiziell
+1533 	TCP 	– 	IBM Sametime IM – Virtual Places Chat Microsoft SQL Server 	offiziell
+1547 	TCP 	UDP 	Laplink 	offiziell
+1550 	– 	– 	Gadu-Gadu (client-to-client) 	inoffiziell
+1581 	– 	UDP 	MIL STD 2045-47001 VMF 	offiziell
+1589 	– 	UDP 	Cisco VQP (VLAN Query Protocol) / VMPS 	inoffiziell
+1627 	– 	– 	iSketch 	inoffiziell
+1645 	TCP 	UDP 	radius auth, RADIUS Authentikationsprotokoll (Voreinstellung für Cisco und Juniper Networks RADIUS Server) 	inoffiziell
+1646 	TCP 	UDP 	radius acct, RADIUS Authentikationsprotokoll (Voreinstellung für Cisco und Juniper Networks RADIUS Server) 	inoffiziell
+1666 	TCP 	– 	Perforce 	inoffiziell
+1677 	TCP 	UDP 	Novell GroupWise 	offiziell
+1701 	– 	UDP 	Layer 2 Forwarding Protocol (L2F) & Layer 2 Tunneling Protocol (L2TP) 	offiziell
+1707 	– 	UDP 	Romtoc Packet Protocol (L2F) & Layer 2 Tunneling Protocol (L2TP) 	inoffiziell
+1714–1764 	TCP 	UDP 	KDE Connect 	inoffiziell
+1716 	TCP 	– 	America’s Army Massively Multiplayer Online Game (MMOG) 	inoffiziell
+1719 	– 	UDP 	H.323 	offiziell
+1720 	TCP 	– 	H.323 	offiziell
+1723 	TCP 	UDP 	Microsoft Point-to-Point Tunneling Protocol (PPTP) 	offiziell
+1725 	– 	UDP 	Valve Steam Client 	inoffiziell
+1755 	TCP 	UDP 	Microsoft Media Services (MMS, ms-streaming) 	offiziell
+1761 	– 	UDP 	cft-0 	offiziell
+1761 	TCP 	– 	cft-0 	offiziell
+1761 	TCP 	– 	Novell Zenworks Fernwartungswerkzeug 	inoffiziell
+1762–1768 	TCP 	UDP 	cft-1 bis cft-7 	offiziell
+1801 	TCP 	UDP 	Microsoft Message Queuing 	offiziell
+1812 	TCP 	UDP 	radius, RADIUS/Authentikation 	offiziell
+1813 	TCP 	UDP 	radacct, RADIUS/Zugang 	offiziell
+1863 	TCP 	– 	MSNP (Microsoft Notification Protocol), genutzt vom .NET Messenger Service und einigen Instant-Messaging-Protokollen 	offiziell
+1883 	TCP 	UDP 	MQTT (Message Queue Telemetry Transport), auch bekannt als MQIsdp (MQSeries SCADA protocol) 	offiziell
+1886 	TCP 	– 	Leonardo over IP Pro2col Ltd 	inoffiziell
+1900 	– 	UDP 	Microsoft SSDP – Ermöglicht das Auffinden von UPnP-Geräten 	offiziell
+1920 	TCP 	– 	IBM Tivoli Monitoring Console (https) 	inoffiziell
+1935 	TCP 	– 	Adobe Inc. Macromedia Flash Real Time Messaging Protocol (RTMP) "plain" protocol 	offiziell
+1947 	TCP 	UDP 	SentinelSRM (hasplm), Aladdin HASP License Manager 	offiziell
+1967 	– 	UDP 	Cisco IOS IP Service Level Agreements (IP SLAs) Control Protocol 	inoffiziell
+1970 	TCP 	UDP 	Netop Business Solutions Netop Remote Control 	offiziell
+1971 	TCP 	UDP 	Netop Business Solutions Netop School 	offiziell
+1972 	TCP 	UDP 	InterSystems Caché 	offiziell
+1975–1977 	– 	UDP 	Cisco TCO 	offiziell
+1984 	TCP 	– 	Big Brother System- und Netzwerkmonitor 	offiziell
+1985 	– 	UDP 	Cisco HSRP 	offiziell
+1994 	TCP 	UDP 	Cisco STUN-SDLC (Serial Tunneling – Synchronous Data Link Control) protocol 	offiziell
+1997 	TCP 	– 	Chizmo Networks Transfer Tool 	inoffiziell
+1998 	TCP 	UDP 	Cisco X.25 over TCP (XOT) 	offiziell
+2000 	TCP 	UDP 	Cisco SCCP (Skinny) 	offiziell
+2001 	– 	UDP 	CAPTAN Test Stand System 	inoffiziell
+2002 	TCP 	– 	Secure Access Control Server (ACS) for Windows 	inoffiziell
+2008 	TCP 	– 	TeamSpeak 3 Accounting 	inoffiziell
+2010 	– 	UDP 	TeamSpeak 3 Webliste 	inoffiziell
+2030 	– 	– 	Oracle Services for Microsoft Transaction Server 	inoffiziell
+2031 	TCP 	UDP 	mobrien-chat 	offiziell
+2041 	TCP 	– 	Mail.Ru Agent communication protocol 	inoffiziell
+2049 	TCP 	UDP 	Network File System (Ab NFSv4 nur noch TCP und nur noch 2049) 	offiziell
+2049 	– 	UDP 	shilp 	offiziell
+2053 	– 	UDP 	lot105-ds-upd Lot105 DSuper Updates 	offiziell
+2053 	TCP 	– 	lot105-ds-upd Lot105 DSuper Updates 	offiziell
+2053 	TCP 	– 	knetd Kerberos de-multiplexor 	inoffiziell
+2056 	– 	UDP 	Civilization 4 multiplayer 	inoffiziell
+2073 	TCP 	UDP 	DataReel Database 	offiziell
+2074 	TCP 	UDP 	Vertel VMF SA (i. e. App.. SpeakFreely) 	offiziell
+2082 	TCP 	– 	Infowave Mobility Server 	offiziell
+2082 	TCP 	– 	CPanel default 	inoffiziell
+2083 	TCP 	– 	Secure Radius Service (radsec) 	offiziell
+2083 	TCP 	– 	CPanel default SSL 	inoffiziell
+2086 	TCP 	– 	GNUnet 	offiziell
+2086 	TCP 	– 	WebHost Manager default 	inoffiziell
+2087 	TCP 	– 	WebHost Manager default SSL 	inoffiziell
+2095 	TCP 	– 	CPanel Web mail 	inoffiziell
+2096 	TCP 	– 	CPanel SSL Web mail 	inoffiziell
+2100 	TCP 	– 	Warzone 2100 multiplayer 	inoffiziell
+2101 	TCP 	– 	NTRIP 	inoffiziell
+2102 	TCP 	UDP 	zephyr-srv Project Athena Zephyr Notification Service server 	offiziell
+2103 	TCP 	UDP 	zephyr-clt Project Athena Zephyr Notification Service serv-hm connection 	offiziell
+2104 	TCP 	UDP 	zephyr-hm Project Athena Zephyr Notification Service hostmanager 	offiziell
+2105 	TCP 	UDP 	IBM MiniPay 	offiziell
+2105 	TCP 	UDP 	eklogin Kerberos – Verschlüsselter Fernlogin (rlogin) 	inoffiziell
+2105 	TCP 	UDP 	zephyr-hm-srv Project Athena Zephyr Notification Service hm-serv connection (should use port 2102) 	inoffiziell
+2144 	TCP 	– 	Iron Mountain LiveVault Agent 	inoffiziell
+2145 	TCP 	– 	Iron Mountain LiveVault Agent 	inoffiziell
+2156 	– 	UDP 	Talari Reliable Protocol 	offiziell
+2161 	TCP 	– 	APC Agent 	offiziell
+2181 	TCP 	UDP 	EForward – Dokumenttransportsystem 	offiziell
+2181 	TCP 		ZooKeeper Configuration Management und Service Discovery (management port) 	?
+2190 	– 	UDP 	TiVoConnect Beacon 	inoffiziell
+2200 	– 	UDP 	Tuxanci game server[37] 	inoffiziell
+2210 	– 	UDP 	NOAAPORT Broadcast Network 	offiziell
+2210 	TCP 	– 	NOAAPORT Broadcast Network 	offiziell
+2210 	TCP 	– 	MikroTik Fernwartung für "The Dude" 	inoffiziell
+2211 	– 	UDP 	EMWIN 	offiziell
+2211 	TCP 	– 	EMWIN 	offiziell
+2211 	TCP 	– 	MikroTik Sichere Fernwartung für "The Dude" 	inoffiziell
+2212 	– 	UDP 	LeeCO POS Server Service 	offiziell
+2212 	TCP 	– 	LeeCO POS Server Service 	offiziell
+2212 	TCP 	– 	Port-A-Pour Remote WinBatch 	inoffiziell
+2219 	TCP 	UDP 	NetIQ NCAP Protocol 	offiziell
+2220 	TCP 	UDP 	NetIQ End2End 	offiziell
+2221 	TCP 	– 	ESET Anti-virus updates 	inoffiziell
+2222 	TCP 	– 	DirectAdmin default & ESET Remote Administration 	inoffiziell
+2223 	– 	UDP 	Microsoft Office OS X – Anti-Piraterie-Software 	inoffiziell
+2261 	TCP 	UDP 	CoMotion Master 	offiziell
+2262 	TCP 	UDP 	CoMotion Backup 	offiziell
+2281 	TCP 	– 	ArmA Procamaign Game API 	inoffiziell
+2302 	– 	UDP 	ArmA Multiplayer 	inoffiziell
+2302 	– 	UDP 	Halo: Kampf um die Zukunft Multiplayer 	inoffiziell
+2303 	– 	UDP 	ArmA Multiplayer 	inoffiziell
+2305 	– 	UDP 	ArmA Multiplayer 	inoffiziell
+2323 	TCP 	UDP 	PLCFirewall Progress Group 	inoffiziell
+2369 	TCP 	– 	Voreinstellung für BMC Software Control-M/Server – Configuration Agent, oft geändert während Installation 	offiziell
+2370 	TCP 	– 	Voreinstellung für BMC Software Control-M/Server 	offiziell
+2381 	TCP 	– 	HP Insight Manager Default für Webserver 	inoffiziell
+2401 	TCP 	– 	CVS 	inoffiziell
+2404 	TCP 	– 	IEC 60870-5 -104 	offiziell
+2420 	– 	UDP 	Westell Remote Access 	offiziell
+2427 	– 	UDP 	Cisco MGCP 	offiziell
+2447 	TCP 	UDP 	ovwdb – OpenView Network Node Manager (NNM) daemon 	offiziell
+2483 	TCP 	UDP 	Oracle Datenbank listening für unsichere Client-Verbindungen zum Listener, ersetzt Port 1521 	offiziell
+2484 	TCP 	UDP 	Oracle Datenbank listening für SSL Client-Verbindungen zum Listener 	offiziell
+2500 	TCP 	– 	THEÒSMESSENGER Listening für TheòsMessenger Client-Verbindungen 	offiziell
+2501 	TCP 	– 	TheosNet-Admin Listening für TheòsMessenger Client-Verbindungen 	offiziell
+2518 	TCP 	UDP 	Willy 	offiziell
+2525 	TCP 	– 	SMTP alternate 	inoffiziell
+2546 	TCP 	UDP 	EVault – Data Protection Services 	inoffiziell
+2593 	TCP 	UDP 	RunUO – Ultima Online Server 	inoffiziell
+2598 	TCP 	– 	Neues ICA – wenn Session Reliability aktiviert ist, dann ersetzt TCP Port 2598 Port 1494 	inoffiziell
+2599 	TCP 	– 	SonicWALL Antispam Traffic zwischen RA und CC 	inoffiziell
+2610 	TCP 	– 	Dark Ages 	inoffiziell
+2612 	TCP 	UDP 	QPasa from MQSoftware 	offiziell
+2638 	TCP 	– 	Sybase database listener 	inoffiziell
+2700–2800 	TCP 	– 	KnowShowGo P2P 	offiziell
+2710 	TCP 	– 	XBT Bittorrent Tracker 	inoffiziell
+2710 	– 	UDP 	XBT Bittorrent Tracker experimental UDP tracker extension 	inoffiziell
+2713 	TCP 	UDP 	Raven Trinity Broker Service 	offiziell
+2714 	TCP 	UDP 	Raven Trinity Data Mover 	offiziell
+2735 	TCP 	UDP 	NetIQ Monitor Console 	offiziell
+2809 	TCP 	– 	corbaloc:iiop URL, in der CORBA 3.0.3 specification 	offiziell
+2809 	TCP 	– 	IBM WebSphere Application Server (WAS) Bootstrap/rmi Voreinstellung 	inoffiziell
+2809 	– 	UDP 	corbaloc:iiop URL, in der CORBA 3.0.3 specification. 	offiziell
+2868 	TCP 	UDP 	Norman Proprietary Event Protocol NPEP 	offiziell
+2869 	TCP 	UDP 	icslap 	offiziell
+2888 	TCP 	UDP 	ZooKeeper Configuration Management und Service Discovery (leader connect) 	?
+2944 	– 	UDP 	Megaco Text H.248 	inoffiziell
+2945 	– 	UDP 	Megaco Binary (ASN.1) H.248 	inoffiziell
+2947 	TCP 	– 	gpsd GPS daemon 	offiziell
+2948 	TCP 	UDP 	WAP-push Multimedia Messaging Service (MMS) 	offiziell
+2949 	TCP 	UDP 	WAP-pushsecure Multimedia Messaging Service (MMS) 	offiziell
+2967 	TCP 	– 	Symantec AntiVirus Corporate Edition 	inoffiziell
+3000 	TCP 	– 	Miralix License server 	inoffiziell
+3000 	– 	UDP 	Distributed Interactive Simulation (DIS), modifiable default 	inoffiziell
+3000 	TCP 	– 	Tarantula Testmanagement 	inoffiziell
+3000 	TCP 	– 	Sartissohn Scan Control Service 	inoffiziell
+3001 	TCP 	– 	Miralix Phone Monitor 	inoffiziell
+3001 	TCP 	– 	Opsware server (Satellite) 	inoffiziell
+3002 	TCP 	– 	Miralix CSTA 	inoffiziell
+3003 	TCP 	– 	Miralix GreenBox API 	inoffiziell
+3004 	TCP 	– 	Miralix InfoLink 	inoffiziell
+3005 	TCP 	– 	Miralix TimeOut 	inoffiziell
+3006 	TCP 	– 	Miralix SMS Client Connector 	inoffiziell
+3007 	TCP 	– 	Miralix OM Server 	inoffiziell
+3008 	TCP 	– 	Miralix Proxy 	inoffiziell
+3017 	TCP 	– 	Miralix IVR and Voicemail 	inoffiziell
+3025 	TCP 	– 	netpd.org 	inoffiziell
+3030 	TCP 	UDP 	NetPanzer 	inoffiziell
+3050 	TCP 	UDP 	gds_db (InterBase/Firebird) 	offiziell
+3051 	TCP 	UDP 	Galaxy Server (Gateway Ticketing Systems) 	offiziell
+3074 	TCP 	UDP 	Xbox Live und/oder Games for Windows - LIVE 	offiziell
+3100 	TCP 	– 	HTTP TATSOFTs voreingestellter Listening-Port 	inoffiziell
+3101 	TCP 	– 	BlackBerry Enterprise Server – Kommunikation mit der Cloud 	inoffiziell
+3128 	TCP 	– 	HTTP genutzt von Web caches und Voreinstellung in Squid 	inoffiziell
+3128 	TCP 	– 	HTTP Bei Tatsoft die Standard-Client-Verbindung 	inoffiziell
+3225 	TCP 	UDP 	FCIP (Fiber Channel over Internet Protocol) 	offiziell
+3233 	TCP 	UDP 	WhiskerControl research control protocol 	offiziell
+3235 	TCP 	UDP 	Galaxy Network Service (Gateway Ticketing Systems) 	offiziell
+3260 	TCP 	– 	iSCSI target 	offiziell
+3268 	TCP 	UDP 	msft-gc, Microsoft Global Catalog 	offiziell
+3269 	TCP 	UDP 	msft-gc-ssl, Microsoft Global Catalog over SSL (ähnlich wie Port 3268, LDAP over SSL) 	offiziell
+3283 	TCP 	– 	Apple Remote Desktop reporting (offiziell NetAssistand) 	offiziell
+3299 	TCP 	– 	SAP-Router (SAP R/3) 	inoffiziell
+3300 	TCP 	UDP 	Debate Gopher backend database system 	inoffiziell
+3305 	TCP 	UDP 	odette-ftp, Odette File Transfer Protocol (OFTP) 	offiziell
+3306 	TCP 	UDP 	MySQL database system (auch für dessen Fork MariaDB verwendet) 	offiziell
+3313 	TCP 	– 	Verisys – File Integrity Monitoring Software 	inoffiziell
+3333 	TCP 	– 	Network Caller ID server 	inoffiziell
+3384 	TCP 	UDP 	Cluster Management Services (TCP)/Hardware Management (UDP) 	offiziell
+3386 	TCP 	UDP 	GPRS Tunneling Protocol 3GPP GSM/UMTS CDR logging protocol 	offiziell
+3389 	TCP 	UDP 	Microsoft Terminal Server (RDP), offiziell registriert als Windows Based Terminal (WBT) – Link 	offiziell
+3396 	TCP 	UDP 	Novell NDPS Printer Agent 	offiziell
+3412 	TCP 	UDP 	xmlBlaster 	offiziell
+3455 	TCP 	UDP 	[RSVP] Reservation Protocol 	offiziell
+3423 	TCP 	– 	Xware xTrm Communication Protocol 	offiziell
+3424 	TCP 	– 	Xware xTrm Communication Protocol over SSL 	offiziell
+3478 	TCP 	UDP 	STUN 	offiziell
+3483 	– 	UDP 	Slim Devices discovery protocol 	offiziell
+3483 	TCP 	– 	Slim Devices SlimProto protocol 	offiziell
+3516 	TCP 	UDP 	Smartcard Port 	offiziell
+3527 	– 	UDP 	Microsoft Message Queuing 	offiziell
+3532 	TCP 	UDP 	Raven Remote Management Control 	offiziell
+3533 	TCP 	UDP 	Raven Remote Management Data 	offiziell
+3535 	TCP 	– 	SMTP alternate 	inoffiziell
+3537 	TCP 	UDP 	ni-visa-remote 	inoffiziell
+3540 	– 	UDP 	Microsoft Peer Name Resolution Protocol (PNRP) 	offiziell
+3544 	– 	UDP 	Teredo Tunneling 	offiziell
+3605 	– 	UDP 	ComCam IO Port 	offiziell
+3606 	TCP 	UDP 	Splitlock Server 	offiziell
+3632 	TCP 	– 	distributed compiler 	offiziell
+3671 	TCP 	UDP 	efcp - eFieldControl(EIBnet) KNX Association 	offiziell
+3689 	TCP 	– 	Digital Audio Access Protocol (DAAP) – genutzt durch Apple iTunes und AirPort Express 	offiziell
+3690 	TCP 	UDP 	Subversion 	offiziell
+3702 	TCP 	UDP 	Web Services Dynamic Discovery (WS-Discovery), genutzt von verschiedenen Komponenten von Windows Vista 	offiziell
+3723 	TCP 	UDP 	Viele Battle.net Blizzard Spiele (Diablo II, Warcraft 2, Warcraft III: Reign of Chaos, StarCraft) 	inoffiziell
+3724 	– 	UDP 	World of Warcraft Online gaming MMORPG 	inoffiziell
+3724 	TCP 	– 	World of Warcraft Online gaming MMORPG 	inoffiziell
+3724 	TCP 	– 	Club Penguin Disney online game for kids - OFFLINE 	inoffiziell
+3735 	TCP 	– 	pwdis - Passwortverteilung 	offiziell
+3784 	TCP 	UDP 	Ventrilo VoIP 	inoffiziell
+3785 	– 	UDP 	Ventrilo VoIP 	inoffiziell
+3800 	TCP 	– 	HGG-Programme 	inoffiziell
+3880 	TCP 	UDP 	IGRS 	offiziell
+3868 	TCP 	SCTP 	Diameter base protocol (RFC 3588) 	offiziell
+3872 	TCP 	– 	Oracle Management Remote Agent 	inoffiziell
+3888 	TCP 	UDP 	ZooKeeper Configuration Management und Service Discovery (leader election) 	?
+3899 	TCP 	– 	Remote Administrator 	inoffiziell
+3900 	TCP 	– 	udt_os, IBM UniData UDT OS[38] 	offiziell
+3945 	TCP 	UDP 	EMCADS service, ein Giritech-Produkt genutzt von G/On 	offiziell
+3978 	TCP 	UDP 	OpenTTD (Master-Server und Content) 	inoffiziell
+3979 	TCP 	UDP 	OpenTTD 	inoffiziell
+3999 	TCP 	UDP 	Norman distributed scanning service 	offiziell
+4000 	TCP 	UDP 	Diablo II 	inoffiziell
+4001 	TCP 	– 	Microsoft Ants, Server2Go 	inoffiziell
+4007 	TCP 	– 	PrintBuzzer – Monitoring-Server 	inoffiziell
+4069 	– 	UDP 	Minger Email Address Verification Protocol[39] 	offiziell
+4089 	TCP 	UDP 	OpenCORE Remote Control Service 	offiziell
+4093 	TCP 	UDP 	PxPlus Client server interface ProvideX 	offiziell
+4096 	TCP 	UDP 	Ascom Timeplex BRE (Bridge Relay Element) 	offiziell
+4100 	– 	– 	WatchGuard Authentication Applet – default 	inoffiziell
+4111 	TCP 	– 	Xgrid 	offiziell
+4116 	TCP 	UDP 	Smartcard-TLS 	offiziell
+4125 	TCP 	– 	Microsoft Remote Web Workplace Administration 	inoffiziell
+4172 	TCP 	UDP 	Teradici PCoIP 	offiziell
+4200 	TCP 	– 	Shell-in-a-Box 	inoffiziell
+4201 	TCP 	– 	TinyMUD und ähnliche 	inoffiziell
+4226 	TCP 	UDP 	Aleph One (game) 	inoffiziell
+4224 	TCP 	– 	Cisco Audio Session Tunneling 	inoffiziell
+4321 	TCP 	– 	Referral Whois (RWhois) Protocol[40] 	offiziell
+4323 	– 	UDP 	Lincoln Electric’s ArcLink/XT 	inoffiziell
+4433–4436 	TCP 	– 	Axence nVision 	inoffiziell
+4500 	– 	UDP 	IPSec NAT Traversal (RFC 3947) 	offiziell
+4534 	– 	UDP 	Armagetron Advanced Serverport 	inoffiziell
+4567 	TCP 	– 	Sinatra Serverport im Entwicklungsmodus (HTTP) 	inoffiziell
+4569 	– 	UDP 	Inter-Asterisk eXchange (IAX2) 	offiziell
+4610–4640 	TCP 	– 	QualiSystems TestShell Suite Services 	inoffiziell
+4662 	– 	UDP 	OrbitNet Message Service 	offiziell
+4662 	TCP 	– 	OrbitNet Message Service 	offiziell
+4662 	TCP 	– 	Oft von eMule genutzt 	inoffiziell
+4664 	TCP 	– 	Google Desktop Search 	inoffiziell
+4672 	– 	UDP 	eMule 	inoffiziell
+4711 	TCP 	– 	McAfee Web Gateway 7 – Voreingestellter GUI Port HTTP 	inoffiziell
+4711 	TCP 	– 	Fully Automatic Installation – Monitor-Server[41] 	inoffiziell
+4712 	TCP 	– 	McAfee Web Gateway 7 – Voreingestellter GUI Port HTTPS 	inoffiziell
+4728 	TCP 	– 	Computer Associates Desktop and Server Management (DMP)/Port Multiplexer[42] 	offiziell
+4747 	TCP 	– 	Apprentice (Unterstützende Software für Magic: The Gathering) 	inoffiziell
+4750 	TCP 	– 	BladeLogic Agent 	inoffiziell
+4753 	TCP 	UDP 	SIMON (Service und Discovery) 	offiziell
+4789 	– 	UDP 	Virtual Extensible LAN (VXLAN) 	offiziell
+4840 	TCP 	UDP 	OPC UA Protocol für OPC Unified Architecture von OPC Foundation 	offiziell
+4843 	TCP 	UDP 	OPC UA Protocol over TLS/SSL für OPC Unified Architecture von OPC Foundation 	offiziell
+4847 	TCP 	UDP 	Web Fresh Communication, Quadrion Software & Odorless Entertainment 	offiziell
+4894 	TCP 	UDP 	LysKOM Protocol A 	offiziell
+4899 	TCP 	UDP 	Radmin 	offiziell
+4949 	TCP 	– 	Munin Resource Monitoring Tool 	offiziell
+4950 	TCP 	UDP 	Cylon Controls UC32 Communications Port 	offiziell
+4982 	TCP 	UDP 	Solar Data Log 	inoffiziell
+4993 	TCP 	UDP 	Home FTP Server Web Interface/Voreingestellter Port 	inoffiziell
+5000 	TCP 	– 	commplex-main 	offiziell
+5000 	TCP 	– 	UPnP 	inoffiziell
+5000 	TCP 	– 	VTun – VPN Software 	inoffiziell
+5000 	– 	UDP 	VTun – VPN Software 	inoffiziell
+5000 	TCP 	– 	Synology HTTP WebUI (DSM) 	inoffiziell
+5001 	TCP 	– 	commplex-link 	offiziell
+5001 	TCP 	– 	Slingbox und Slingplayer 	inoffiziell
+5001 	TCP 	– 	Iperf (Tool zur Messung von UDP-/TCP-Durchsatz von Netzwerken) 	inoffiziell
+5001 	– 	UDP 	Iperf (Tool zur Messung von UDP-/TCP-Durchsatz von Netzwerken) 	inoffiziell
+5001 	TCP 	– 	Synology HTTPS WebUI (DSM) 	inoffiziell
+5002 	TCP 	– 	SOLICARD ARX[43] 	inoffiziell
+5003 	TCP 	UDP 	FileMaker 	offiziell
+5004 	TCP 	UDP (DCCP) 	RTP (Real-time Transport Protocol) Daten (RFC 3551, RFC 4571) 	offiziell
+5005 	TCP 	UDP (DCCP) 	RTP (Real-time Transport Protocol) Kontrollprotokoll (RFC 3551, RFC 4571) 	offiziell
+5029 	TCP 	– 	Sonic Robot Blast 2: Multiplayer 	inoffiziell
+5031 	TCP 	UDP 	ISDN over Ethernet 	inoffiziell
+5050 	TCP 	– 	Yahoo Messenger 	inoffiziell
+5051 	TCP 	– 	ita-agent Symantec Intruder Alert[44] 	offiziell
+5060 	TCP 	UDP 	Session Initiation Protocol (SIP) 	offiziell
+5061 	TCP 	– 	Session Initiation Protocol (SIP) over TLS 	offiziell
+5070 	TCP 	– 	Binary Floor Control Protocol (BFCP) 	inoffiziell
+5080 	TCP 	– 	Agfeo TK-Suite Server 	inoffiziell
+5081 	TCP 	– 	Agfeo TK-Suite Server 	inoffiziell
+5082 	TCP 	UDP 	Qpur Communication Protocol 	offiziell
+5083 	TCP 	UDP 	Qpur File Protocol 	offiziell
+5084 	TCP 	UDP 	EPCglobal Low Level Reader Protocol (LLRP) 	offiziell
+5085 	TCP 	UDP 	EPCglobal Low Level Reader Protocol (LLRP) over TLS 	offiziell
+5093 	– 	UDP 	SafeNet, Inc. Sentinel LM, Sentinel RMS, License Manager, Client-to-Server 	offiziell
+5099 	TCP 	UDP 	SafeNet, Inc. Sentinel LM, Sentinel RMS, License Manager, Server-to-Server 	offiziell
+5104 	TCP 	– 	IBM Tivoli Framework NetCOOL/Impact[45] HTTP Service 	inoffiziell
+5106 	TCP 	– 	A-Talk Common Connection 	inoffiziell
+5107 	TCP 	– 	A-Talk Remote Server Connection 	inoffiziell
+5108 	TCP 	– 	VPOP3 Mail Server Webmail 	inoffiziell
+5109 	TCP 	UDP 	VPOP3 Mail Server Status 	inoffiziell
+5110 	TCP 	– 	ProRat Server 	inoffiziell
+5121 	TCP 	– 	Neverwinter Nights 	inoffiziell
+5150 	TCP 	UDP 	ATMP Ascend Tunnel Management Protocol[46] 	offiziell
+5150 	TCP 	UDP 	Malware Cerberus RAT 	inoffiziell
+5151 	TCP 	– 	ESRI SDE Instance 	offiziell
+5151 	– 	UDP 	ESRI SDE Remote Start 	offiziell
+5154 	TCP 	UDP 	BZFlag 	offiziell
+5176 	TCP 	– 	ConsoleWorks UI interface 	inoffiziell
+5190 	TCP 	– 	ICQ und AOL Instant Messenger 	offiziell
+5222 	TCP 	– 	Extensible Messaging and Presence Protocol (XMPP) Client Connection[47] 	offiziell
+5223 	TCP 	– 	Extensible Messaging and Presence Protocol (XMPP) Client Connection over SSL 	inoffiziell
+5246 	– 	UDP 	Control And Provisioning of Wireless Access Points (CAPWAP)/Kontrolle[48] 	offiziell
+5247 	– 	UDP 	Control And Provisioning of Wireless Access Points (CAPWAP)/Daten[48] 	offiziell
+5269 	TCP 	– 	Extensible Messaging and Presence Protocol (XMPP) Server Connection[47] 	offiziell
+5298 	TCP 	UDP 	Extensible Messaging and Presence Protocol (XMPP) JEP-0174: Link-Local Messaging / XEP-0174: Serverless Messaging 	offiziell
+5310-5315 	TCP 	UDP 	Ginever.net data communication port 	inoffiziell
+5351 	TCP 	UDP 	NAT Port Mapping Protocol 	offiziell
+5353 	– 	UDP 	Multicast DNS (mDNS) 	offiziell
+5355 	TCP 	UDP 	LLMNR – Link-Local Multicast Name Resolution; erlaubt es Hosts, eine Namensauflösung für Geräte im selben LAN durchzuführen. (nur unter Windows Vista und Windows Server 2008) 	offiziell
+5357 	TCP 	UDP 	Web Services for Devices (WSDAPI) (nur unter Windows Vista, Windows 7 und Windows Server 2008) 	inoffiziell
+5358 	TCP 	UDP 	WSDAPI Anwendungen für einen sicheren Kanal (nur unter Windows Vista, Windows 7 und Windows Server 2008) 	inoffiziell
+5402 	TCP 	UDP 	mftp, Stratacache OmniCast content delivery system MFTP Filesharing Protokoll 	offiziell
+5405 	TCP 	UDP 	NetSupport Manager 	offiziell
+5417 	TCP 	UDP 	SNS Agent 	offiziell
+5421 	TCP 	UDP 	NetSupport Manager 	offiziell
+5432 	TCP 	UDP 	PostgreSQL Datenbank 	offiziell
+5433 	TCP 	– 	Bouwsoft Datei/Webserver 	inoffiziell
+5445 	– 	UDP 	Cisco Unified Video Advantage 	inoffiziell
+5450 	TCP 	UDP 	OSIsoft PI Server Client Access 	inoffiziell
+5457 	TCP 	– 	OSIsoft PI Asset Framework Client Access 	inoffiziell
+5458 	TCP 	– 	OSIsoft PI Notifications Client Access 	inoffiziell
+5495 	TCP 	– 	Applix TM1 Admin server 	inoffiziell
+5498 	TCP 	– 	Hotline/Serververbindung 	inoffiziell
+5499 	– 	UDP 	Hotline/Serverauffindung 	inoffiziell
+5500 	TCP 	– 	VNC 	inoffiziell
+5501 	TCP 	– 	Hotline Dateiübertragung 	inoffiziell
+5517 	TCP 	– 	Setiqueue Proxy-Client für SETI@home 	inoffiziell
+5550 	TCP 	– 	Hewlett-Packard Data Protector 	inoffiziell
+5555 	TCP 	– 	Freeciv, Hewlett-Packard Data Protector, McAfee EndPoint Encryption Database Server, SAP 	inoffiziell
+5555 	TCP 	UDP 	Example for XCP on Ethernet 	inoffiziell
+5556 	TCP 	UDP 	Freeciv 	offiziell
+5591 	TCP 	– 	Tidal 	inoffiziell
+5631 	TCP 	– 	pcANYWHEREdata, Symantec pcAnywhere (Version 7.52 und neuer)/Daten[49][50] 	offiziell
+5632 	– 	UDP 	pcANYWHEREstat, Symantec pcAnywhere (Version 7.52 und neuer)/Status 	offiziell
+5656 	TCP 	– 	IBM Sametime/P2P-Dateiübertragung 	inoffiziell
+5665 	TCP 	– 	Icinga 	inoffiziell
+5666 	TCP 	– 	NRPE (Nagios) 	inoffiziell
+5667 	TCP 	– 	NSCA (Nagios) 	inoffiziell
+5672 	TCP 	– 	RabbitMQ (Pivotal Software) 	inoffiziell
+5678 	– 	UDP 	Mikrotik RouterOS Neighbor Discovery Protocol (MNDP) 	inoffiziell
+5721 	TCP 	UDP 	Kaseya 	inoffiziell
+5723 	TCP 	– 	Operations Manager 	inoffiziell
+5800 	TCP 	– 	VNC Remote Desktop Protocol over HTTP 	inoffiziell
+5814 	TCP 	UDP 	Hewlett-Packard Support Automation (HP OpenView Self-Healing Services) 	offiziell
+5850 	TCP 	– 	COMIT SE (PCR) 	inoffiziell
+5852 	TCP 	– 	Adeona client: Verbindung zu OpenDHT 	inoffiziell
+5900 	TCP 	UDP 	Virtual Network Computing (VNC) (Apple Remote Desktop) 	offiziell
+5912 	TCP 	– 	Tidal 	inoffiziell
+5938 	TCP 	UDP 	TeamViewer[51] RDP 	inoffiziell
+5982 	– 	UDP 	TightProjector 	inoffiziell
+5984 	TCP 	UDP 	CouchDB/Server 	offiziell
+5999 	TCP 	– 	CVSup[52] 	offiziell
+6000 	TCP 	– 	X11 	offiziell
+6001 	– 	UDP 	X11 	offiziell
+6005 	TCP 	– 	BMC Software Control-M/Server 	offiziell
+6005 	TCP 	– 	Camfrog 	inoffiziell
+6050 	TCP 	– 	Brightstor Arcserve Backup 	inoffiziell
+6050 	TCP 	– 	Nortel Software 	inoffiziell
+6051 	TCP 	– 	Brightstor Arcserve Backup 	inoffiziell
+6072 	TCP 	– 	iOperator Protocol Signal Port 	inoffiziell
+6086 	TCP 	– 	PDTP 	offiziell
+6100 	TCP 	– 	Vizrt System 	inoffiziell
+6100 	TCP 	– 	Ventrilo/Authentikation 	offiziell
+6101 	TCP 	– 	Backup Exec Agent Browser 	inoffiziell
+6110 	TCP 	UDP 	softcm, HP Softbench CM 	offiziell
+6111 	TCP 	UDP 	spc, HP Softbench Sub-Process Control 	offiziell
+6112 	– 	UDP 	dtspcd 	offiziell
+6112 	TCP 	– 	dtspcd 	offiziell
+6112 	TCP 	– 	Blizzards Battle.net, ArenaNet, Relic 	inoffiziell
+6112 	TCP 	– 	Club Penguin 	inoffiziell
+6113 	TCP 	– 	Club Penguin 	inoffiziell
+6129 	TCP 	– 	DameWare Remote Control 	offiziell
+6257 	– 	UDP 	WinMX (siehe auch 6699) 	inoffiziell
+6260 	TCP 	UDP 	planet M.U.L.E. 	inoffiziell
+6262 	TCP 	– 	Sybase Advantage Database Server 	inoffiziell
+6343 	– 	UDP 	SFlow, sFlow Trafficmonitoring 	offiziell
+6346 	TCP 	UDP 	gnutella-svc, gnutella (FrostWire, LimeWire, Shareaza etc.) 	offiziell
+6347 	TCP 	UDP 	gnutella-rtr, Gnutella 	offiziell
+6350 	TCP 	UDP 	App Discovery and Access Protocol 	offiziell
+6389 	TCP 	– 	EMC CLARiiON 	inoffiziell
+6419 	TCP 	UDP 	Simple VDR Protocol 	offiziell
+6432 	TCP 	– 	PgBouncer 	offiziell
+6444 	TCP 	UDP 	Sun Grid Engine 	offiziell
+6445 	TCP 	UDP 	Sun Grid Engine 	offiziell
+6454 		UDP 	Art-Net (DMX) 	offiziell
+6502 	TCP 	UDP 	Netop Business Solutions – NetOp Remote Control 	inoffiziell
+6503 	– 	UDP 	Netop Business Solutions – NetOp School 	inoffiziell
+6514 	TCP 	– 	Transport Layer Security (TLS) Transport Mapping for Syslog (RFC 5425) 	offiziell
+6522 	TCP 	– 	Gobby 	inoffiziell
+6523 	TCP 	– 	Gobby 	inoffiziell
+6543 	– 	UDP 	Paradigm Research & Development Jetnet[53] default 	inoffiziell
+6556 	TCP 	– 	CheckMK Agent[54] 	inoffiziell
+6566 	TCP 	– 	SANE (Scanner Access Now Easy) – SANE network scanner daemon 	inoffiziell
+6571 	– 	– 	Windows Live FolderShare client 	inoffiziell
+6600 	TCP 	– 	Music Playing Daemon (MPD) 	inoffiziell
+6619 	TCP 	UDP 	odette-ftps, Odette File Transfer Protocol (OFTP) over TLS/SSL 	offiziell
+6626 	TCP 	UDP 	WAGO-Service-Protocol (wago-service) 	offiziell
+6646 	– 	UDP 	McAfee Network Agent 	inoffiziell
+6660–6664 	TCP 	– 	Internet Relay Chat (IRC) 	inoffiziell
+6665–6669 	TCP 	– 	Internet Relay Chat (IRC) 	offiziell
+6679 	TCP 	UDP 	Osorno Automation Protocol (OSAUT) 	offiziell
+6679 	TCP 	– 	IRC over SSL (Secure Internet Relay Chat) 	inoffiziell
+6697 	TCP 	– 	IRC over SSL (Secure Internet Relay Chat) 	offiziell
+6699 	TCP 	– 	WinMX (siehe auch 6257) 	inoffiziell
+6702 	TCP 	– 	Tidal 	inoffiziell
+6771 	– 	UDP 	Polycom/Server-Broadcast 	inoffiziell
+6789 	TCP 	– 	Datalogger Support Software Campbell Scientific Loggernet Software 	inoffiziell
+6881–6887 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6888 	TCP 	UDP 	MUSE 	offiziell
+6888 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6889–6890 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6891–6900 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6891–6900 	TCP 	UDP 	Windows Live Messenger (Dateiübertragung) 	inoffiziell
+6901 	TCP 	UDP 	Windows Live Messenger (Audio) 	inoffiziell
+6901 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6902–6968 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+6969 	TCP 	UDP 	acmsoda 	offiziell
+6969 	TCP 	– 	BitTorrent-Tracker 	inoffiziell
+6970–6999 	TCP 	UDP 	BitTorrent (P2P) 	inoffiziell
+7000 	TCP 	– 	Vuzes eingebauter HTTPS-BitTorrent-Tracker 	inoffiziell
+7001 	TCP 	– 	BEA WebLogic-Server HTTP-Server 	inoffiziell
+7002 	TCP 	– 	BEA WebLogic-Server HTTPS server 	inoffiziell
+7005 	TCP 	– 	BMC Software Control-M/Server 	inoffiziell
+7006 	TCP 	– 	BMC Software Control-M/Server 	inoffiziell
+7010 	TCP 	– 	Voreinstellung bei Cisco AON AMC (AON Management Console)[55] 	inoffiziell
+7025 	TCP 	– 	Zimbra LMTP [mailbox] (Lokale Mailzustellung) 	inoffiziell
+7047 	TCP 	– 	Zimbra 	inoffiziell
+7133 	TCP 	– 	Enemy Territory: Quake Wars 	inoffiziell
+7144 	TCP 	– 	Peercast 	inoffiziell
+7145 	TCP 	– 	Peercast 	inoffiziell
+7171 	TCP 	– 	Tibia 	inoffiziell
+7306 	TCP 	– 	Zimbra mysql [mailbox] 	inoffiziell
+7307 	TCP 	– 	Zimbra mysql [logger] 	inoffiziell
+7312 	– 	UDP 	Sibelius Lizenzserver 	inoffiziell
+7400 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS Discovery 	offiziell
+7401 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS User-Traffic 	offiziell
+7402 	TCP 	UDP 	RTPS (Real Time Publish Subscribe) DDS Meta-Traffic 	offiziell
+7509 	TCP 	– 	ACPLT - process automation service 	offiziell
+7547 	TCP 	UDP 	CPE WAN Management Protocol Technical Report 069 	offiziell
+7615 	TCP 	– 	ISL Online[56] communication protocol 	inoffiziell
+7647 	TCP 	– 	Distributed Ruby 	inoffiziell
+7670 	TCP 	– 	BrettspielWelt BSW Boardgame Portal 	inoffiziell
+7676 	TCP 	– 	Aqumin AlphaVision Remote Command Interface 	inoffiziell
+7700 	– 	UDP 	P2P DC (RedHub) 	inoffiziell
+7777 	TCP 	– 	iChat/Dateiübertragungsproxy 	inoffiziell
+7777 	TCP 	– 	Oracle Cluster File System 2 	inoffiziell
+7777 	TCP 	– 	GTA: San Andreas Multiplayer Server default port 	inoffiziell
+7777 	TCP 	– 	Terraria Server Standard Port[57] 	inoffiziell
+7777 	TCP 	– 	Windows – Backdoor-Programm tini.exe 	inoffiziell
+7777 	TCP 	– 	Xivio.com Chat Server Interface 	inoffiziell
+7778 	TCP 	– 	Bad Trip MUD 	inoffiziell
+7777–7788 	– 	UDP 	Unreal Tournament series default server 	inoffiziell
+7777–7788 	TCP 	– 	Unreal Tournament series default server 	inoffiziell
+7787–7788 	TCP 	– 	GFI EventsManager 7 & 8 	offiziell
+7788–7799 	TCP 	– 	DRBD 	inoffiziell
+7831 	TCP 	– 	Smartlaunch Internet Cafe Administration[58] 	inoffiziell
+7880 	TCP 	UDP 	PowerSchool Gradebook Server 	inoffiziell
+7915 	TCP 	– 	Voreinstellung für YSFlight server ysflight.com 	inoffiziell
+7935 	TCP 	– 	Flash Debug Player[59] 	inoffiziell
+7937–9936 	TCP 	UDP 	EMC² (Legato) Networker oder Sun Solcitice Backup 	offiziell
+8000 	– 	UDP 	iRDMI (Intel Remote Desktop Management Interface)[60] – manchmal statt 8080 genutzt 	offiziell
+8000 	TCP 	– 	iRDMI (Intel Remote Desktop Management Interface)[60] 	offiziell
+8000 	TCP 	– 	SHOUTcast 	inoffiziell
+8000 	TCP 	– 	WinMOS 300 (Aufzugsmonitoringsystem) 	inoffiziell
+8001 	TCP 	– 	SHOUTcast 	inoffiziell
+8002 	TCP 	– 	Cisco Systems Unified Call Manager Intercluster 	inoffiziell
+8006 	TCP 	– 	Proxmox VE Webinterface ab Version 3.x[61] 	inoffiziell
+8008 	TCP 	– 	HTTP – Alternativ 	offiziell
+8008 	TCP 	– 	IBM HTTP Server Administration 	inoffiziell
+8008 	TCP 	– 	Google Chromecast 	inoffiziell
+8009 	TCP 	– 	Google Chromecast 	inoffiziell
+8009 	TCP 	– 	ajp13 – Apache JServ Protocol AJP Connector 	inoffiziell
+8010 	TCP 	– 	XMPP Dateiübertragungen 	inoffiziell
+8011–8014 	TCP 	– 	HTTP Symon Communications Event and Query Engine 	inoffiziell
+8016 	TCP 	– 	Secure Automation Device Specification (Beckhoff Automation)[62] 	?
+8051 	TCP 	– 	Rocrail Client Service (Model Railroad Control System)[63] 	offiziell
+8074 	TCP 	– 	Gadu-Gadu 	inoffiziell
+8078 	TCP 	UDP 	Endless Online-based servers 	inoffiziell
+8080 	TCP 	– 	HTTP alternativ (http_alt); oft genutzt für Proxyserver und Cachingserver, oder um einen Webserver ohne root-Rechte zu nutzen 	offiziell
+8080 	TCP 	– 	Apache Tomcat 	inoffiziell
+8080 	– 	UDP 	FilePhile Master/Relay 	inoffiziell
+8081 	TCP 	– 	HTTP/Alternativ, VibeStreamer, z. B. McAfee ePolicy Orchestrator (ePO) 	inoffiziell
+8083 	TCP 	– 	FHEM; Weboberfläche eines Hausautomationssystems 	inoffiziell
+8086 	TCP 	– 	HELM Web Host Automation Windows Control Panel 	inoffiziell
+8086 	TCP 	– 	Kaspersky Anti-Virus Control Center 	inoffiziell
+8087 	TCP 	– 	Hosting Accelerator Control Panel 	inoffiziell
+8087 	TCP 	– 	Parallels Plesk Control Panel 	inoffiziell
+8087 	– 	UDP 	Kaspersky Anti-Virus Control Center 	inoffiziell
+8088 	TCP 	– 	Radan HTTP[64] 	offiziell
+8089 	TCP 	– 	Splunk Daemon 	inoffiziell
+8090 	TCP 	– 	HTTP Alternative (http_alt_alt) 	inoffiziell
+8101 	TCP 	– 	openHAB Control Panel 	inoffiziell
+8116 	– 	UDP 	Check Point Cluster Control Protocol 	inoffiziell
+8118 	TCP 	– 	Privoxy 	offiziell
+8123 	TCP 	– 	Polipo Web proxy 	offiziell
+8192 	TCP 	– 	Sophos Remote Management System 	inoffiziell
+8193 	TCP 	– 	Sophos Remote Management System 	inoffiziell
+8194 	TCP 	– 	Sophos Remote Management System 	inoffiziell
+8200 	TCP 	– 	GoToMyPC 	inoffiziell
+8222 	TCP 	– 	VMware Server Management User Interface (unsicheres Webinterface). Siehe auch Port 8333 	inoffiziell
+8243 	TCP 	UDP 	HTTPS für Apache Synapse[65] 	offiziell
+8280 	TCP 	UDP 	HTTP für Apache Synapse[65] 	offiziell
+8291 	TCP 	– 	MikroTik Router-OS Winbox 	inoffiziell
+8303 	– 	UDP 	Teeworlds Server 	inoffiziell
+8332 	TCP 	– 	Bitcoin JSON-RPC Server[66] 	inoffiziell
+8333 	TCP 	– 	Bitcoin[67] 	inoffiziell
+8333 	TCP 	– 	VMware Siehe auch Port 8222 	inoffiziell
+8400 	TCP 	UDP 	cvp, Commvault Unified Data Management 	offiziell
+8423 	TCP 		Aristech text-to-speech server 	offiziell
+8442 	TCP 	UDP 	CyBro A-bus, Cybrotech Ltd. 	offiziell
+8443 	TCP 	UDP 	PCsync HTTPS (IANA)[68]; inoffiziell: SW Soft Plesk Control Panel, Apache Tomcat SSL, Promise WebPAM SSL, LiveConfig, IPCop 	offiziell
+8444 	TCP 	UDP 	PCsync HTTPS[68] 	offiziell
+8484 	TCP 	UDP 	MapleStory 	inoffiziell
+8500 	TCP 	UDP 	ColdFusion Macromedia/Adobe ColdFusion, Duke Nukem 3D 	inoffiziell
+8501 	TCP 	– 	dukesterx.net DukesterX – default 	inoffiziell
+8529 	TCP 	– 	ArangoDB 	offiziell
+8530 	TCP 	– 	WSUS HTTP Standardport[69] 	inoffiziell
+8531 	TCP 	– 	WSUS HTTPS Standardport[69] 	inoffiziell
+8585 	TCP 	– 	Lizenzserver der Fa. cseTools[70] 	inoffiziell
+8691 	TCP 	– 	Ultra Fractal 	inoffiziell
+8701 	– 	UDP 	SoftPerfect Bandwidth Manager 	inoffiziell
+8702 	– 	UDP 	SoftPerfect Bandwidth Manager 	inoffiziell
+8728 	TCP 		MikroTik Router-OS API 	offiziell
+8729 	TCP 		MikroTik Router-OS API-SSL 	offiziell
+8767 	– 	UDP 	TeamSpeak 	inoffiziell
+8768 	– 	UDP 	TeamSpeak 	inoffiziell
+8880 	– 	UDP 	cddbp-alt, CDDB protocol (CDDBP) alternativ 	offiziell
+8880 	TCP 	– 	cddbp-alt, CDDB protocol (CDDBP) alternativ 	offiziell
+8880 	TCP 	– 	WebSphere Application Server SOAP connector Voreinstellung 	inoffiziell
+8880 	TCP 	– 	Win Media Streamer to Server SOAP connector Voreinstellung 	inoffiziell
+8881 	TCP 	– 	Atlasz Informatics Research Ltd atlasz.com Secure Application Server 	inoffiziell
+8882 	TCP 	– 	Atlasz Informatics Research Ltd atlasz.com Secure Application Server 	inoffiziell
+8883 	TCP 	UDP 	Secure MQTT (Message Queue Telemetry Transport over SSL) 	offiziell
+8887 	TCP 	– 	HyperVM HTTP 	offiziell
+8888 	TCP 	– 	HyperVM HTTPS 	offiziell
+8888 	– 	UDP 	NewsEDGE Server 	offiziell
+8888 	TCP 	– 	NewsEDGE Server 	offiziell
+8888 	TCP 	– 	Sun Answerbook dwhttpd Server (veraltet laut docs.sun.com) 	inoffiziell
+8888 	TCP 	– 	GNUmp3d HTTP music streaming and Web interface 	inoffiziell
+8888 	TCP 	– 	LoLo Catcher HTTP Web interface (www.optiform.com) 	inoffiziell
+8888 	TCP 	– 	D2GS Admin Console Telnetkonsole für D2GS servers (Diablo 2) 	inoffiziell
+8888 	TCP 	– 	Earthland Realms 2 Server (AU1_2) 	inoffiziell
+8889 	TCP 	– 	Earthland Realms 2 Server (AU1_1) 	inoffiziell
+8983 	TCP 	– 	Default für Apache Solr[71] 	inoffiziell
+8953 	TCP 	– 	unbound dns nameserver Kontroll-Port 	offiziell
+8953 	– 	UDP 	reserviert 	offiziell
+8954 	TCP 	UDP 	Canto Cumulus Admin Port 	offiziell
+9000 	TCP 	– 	Buffalo LinkSystem Web access 	inoffiziell
+9000 	TCP 	– 	DBGp 	inoffiziell
+9000 	TCP 	– 	SqueezeCenter web server & streaming 	inoffiziell
+9000 	– 	UDP 	UDP Cast 	inoffiziell
+9001 	TCP 	UDP 	ETL Service Manager[72] 	offiziell
+9001 	– 	– 	Microsoft SharePoint Authoring Environment 	inoffiziell
+9001 	– 	– 	cisco-xremote router configuration 	inoffiziell
+9001 	– 	– 	Tor 	inoffiziell
+9001 	TCP 	– 	DBGp Proxy 	inoffiziell
+9009 	TCP 	UDP 	Pichat-Server – Peer-to-Peer Chat Software 	offiziell
+9010 	TCP 	– 	ProMoS DMS Datenbankkommunikation und Lizenzierung 	inoffiziell
+9011 	TCP 	– 	ProMoS PDBS Kommunikation zu historischen Daten 	inoffiziell
+9020 	TCP 	– 	ProMoS DMS/PDBS Webservices (JSON/REST) 	inoffiziell
+9030 	TCP 	– 	Tor/oft genutzt 	inoffiziell
+9043 	TCP 	– 	WebSphere Application Server Administration Console secure 	inoffiziell
+9050 	TCP 	– 	Tor 	inoffiziell
+9051 	TCP 	– 	Tor 	inoffiziell
+9060 	TCP 	– 	WebSphere Application Server Administration Console 	inoffiziell
+9080 	– 	UDP 	glrpc, Microsoft Groove Kollaborationssoftware GLRPC 	offiziell
+9080 	TCP 	– 	glrpc, Microsoft Groove Kollaborationssoftware GLRPC 	offiziell
+9080 	TCP 	– 	WebSphere Application Server HTTP Transport (port 1) Voreinstellung 	inoffiziell
+9090 	TCP 	– 	Webwasher, Secure Web, McAfee Web Gateway – Default Proxy Port, ManageEngine Applications Manager 	inoffiziell
+9090 	TCP 	– 	Openfire Administration Console 	inoffiziell
+9090 	TCP 	– 	SqueezeCenter/Kontrolle (CLI) 	inoffiziell
+9091 	TCP 	– 	Openfire Administration Console (SSL Secured) 	inoffiziell
+9100 	TCP 	– 	PDL Data Stream 	offiziell
+9101 	TCP 	UDP 	Bacula Director 	offiziell
+9102 	TCP 	UDP 	Bacula File Daemon 	offiziell
+9103 	TCP 	UDP 	Bacula Storage Daemon 	offiziell
+9105 	TCP 	UDP 	Xadmin Control Daemon 	offiziell
+9110 	– 	UDP 	SSMP Message protocol 	inoffiziell
+9119 	TCP 	UDP 	MXit Instant Messenger 	offiziell
+9150 	TCP 	– 	Tor Browser Bundle 	inoffiziell
+9200 	TCP 		SEH myUTN Manager[73] 	inoffiziell
+9287 	TCP 	UDP 	Canto Cumulus 	offiziell
+9293 	TCP 	– 	Sony PlayStation RemotePlay 	inoffiziell
+9300 	TCP 	– 	IBM Cognos 8 SOAP 	inoffiziell
+9303 	– 	UDP 	D-Link Shareport 	inoffiziell
+9306 	TCP 	– 	Sphinx Native API 	offiziell
+9312 	TCP 	– 	Sphinx SphinxQL 	offiziell
+9418 	TCP 	UDP 	git, Git pack transfer service 	offiziell
+9420 	TCP 	– 	MooseFS distributed file system 	inoffiziell
+9421 	TCP 	– 	MooseFS distributed file system 	inoffiziell
+9422 	TCP 	– 	MooseFS distributed file system 	inoffiziell
+9501 	TCP 	– 	Keppe Chat, Keppe Project-Team Chat System 	inoffiziell
+9522 	TCP 	UDP 	Speedwire, SMA Solar Technology AG, Kommunikationsprotokoll 	offiziell
+9535 	TCP 	UDP 	mngsuite, LANDesk Management Suite Remote Control 	offiziell
+9536 	TCP 	UDP 	laes-bf, IP Fabrics Surveillance buffering function 	offiziell
+9600 	– 	UDP 	Omron FINS, OMRON FINS PLC communication 	offiziell
+9675 	TCP 	UDP 	Spiceworks Desktop, IT Helpdesk Software 	inoffiziell
+9676 	TCP 	UDP 	Spiceworks Desktop, IT Helpdesk Software 	inoffiziell
+9695 	– 	UDP 	CCNx 	offiziell
+9800 	TCP 	UDP 	WebDAV Source 	offiziell
+9800 	– 	– 	WebCT e-learning portal 	inoffiziell
+9875 	TCP 	– 	Disney Club Penguin Onlinespiel für Kinder 	inoffiziell
+9898 	– 	UDP 	MonkeyCom 	offiziell
+9898 	TCP 	– 	MonkeyCom 	offiziell
+9898 	TCP 	– 	Tripwire – File Integrity Monitoring Software 	inoffiziell
+9987 	– 	UDP 	TeamSpeak 3 Voice 	inoffiziell
+9996 	TCP 	UDP 	„The Palace“ Virtual Reality Chat Software – 5 	offiziell
+9999 	– 	– 	Hydranode – donkey2000 Telnet control 	inoffiziell
+9999 	TCP 	– 	Lantronix UDS-10/UDS100[74] RS-485 to Ethernet Converter Telnet control 	inoffiziell
+9999 	– 	– 	Urchin Web Analytics 	inoffiziell
+10000 	– 	– 	Webmin 	inoffiziell
+10000 	– 	– 	BackupExec 	inoffiziell
+10000 	– 	– 	Ericsson Account Manager (avim) 	inoffiziell
+10001 	TCP 	UCP 	SCP Configuration 	offiziell
+10001 	– 	UDP 	Lantronix UDS-10/UDS100[75] RS-485 to Ethernet Converter Voreinstellung 	inoffiziell
+10001 	– 	UDP 	Ubiquiti UniFi Access Point[76] 	inoffiziell
+10008 	TCP 	UDP 	Octopus Multiplexer 	offiziell
+10009 	TCP 	UDP 	Cross Fire 	inoffiziell
+10010 	TCP 	– 	Open Object Rexx (ooRexx) rxapi daemon 	offiziell
+10011 	TCP 	– 	TeamSpeak 3 ServerQuery (Telnet) 	inoffiziell
+10017 	– 	– 	AIX, NeXT, HPUX – rexd daemon control 	inoffiziell
+10022 	TCP 	– 	TeamSpeak 3 ServerQuery (SSH) 	inoffiziell
+10024 	TCP 	– 	Zimbra SMTP [mta] – postfix nach amavis 	inoffiziell
+10025 	TCP 	– 	Zimbra SMTP – amavis zurück zu postfix 	inoffiziell
+10042 	TCP 	– 	Mathoid server – konvertiert texvc zu MathML + SVG 	inoffiziell
+10050 	TCP 	UDP 	Zabbix-Agent 	offiziell
+10051 	TCP 	UDP 	Zabbix-Trapper 	offiziell
+10113 	TCP 	UDP 	NetIQ Endpoint 	offiziell
+10114 	TCP 	UDP 	NetIQ Qcheck 	offiziell
+10115 	TCP 	UDP 	NetIQ Endpoint 	offiziell
+10116 	TCP 	UDP 	NetIQ VoIP Assessor 	offiziell
+10200 	TCP 	– 	FRISK Software International – Virenscannerdaemon für UNIX 	inoffiziell
+10201–10204 	TCP 	– 	FRISK Software International – Virenscannerdaemon für UNIX 	inoffiziell
+10308 	– 	– 	Lock-on: Modern Air Combat 	inoffiziell
+10480 	– 	– 	SWAT 4 Ausgewiesener Server 	inoffiziell
+10823 	– 	UDP 	Landwirtschafts-Simulator 2011/13/15/17 Standard-Server 	inoffiziell
+11155 	– 	UDP 	Tunngle[77] 	inoffiziell
+11211 	TCP 	UDP 	memcached 	inoffiziell
+11235 	– 	– 	Savage:Battle for Newerth Online-Server 	inoffiziell
+11294 	– 	– 	Blood Quest Online-Server 	inoffiziell
+11371 	TCP 	– 	OpenPGP-HTTP-Schlüsselserver (HPK) 	offiziell
+11576 	– 	– 	IPStor 	inoffiziell
+12010 	TCP 	– 	ElevateDB 	inoffiziell
+12011 	TCP 	– 	Axence nVision 	inoffiziell
+12012 	TCP 	– 	Axence nVision 	inoffiziell
+12012 	TCP 	– 	Audition Online Dance Battle, Korea-Server – Status/Version Check 	inoffiziell
+12012 	– 	UDP 	Audition Online Dance Battle, Korea-Server – Status/Version Check 	inoffiziell
+12013 	TCP 	UDP 	Audition Online Dance Battle, Korea-Server 	inoffiziell
+12035 	– 	UDP 	Linden Lab Second Life[78] 	inoffiziell
+12222 	– 	UDP 	Light Weight Access Point Protocol (LWAPP; RFC 5412) 	offiziell
+12223 	– 	UDP 	Light Weight Access Point Protocol (LWAPP; RFC 5412) 	offiziell
+12345 	– 	– 	NetBus 	inoffiziell
+12489 	TCP 	– 	NSClient/NSClient++/NC_Net (Nagios) 	inoffiziell
+12975 	TCP 	– 	LogMeIn Hamachi 	inoffiziell
+12998–12999 	– 	UDP 	Takenaka RDI Mirror World on SecondLife 	inoffiziell
+13000–13050 	– 	UDP 	Linden Lab 	inoffiziell
+13008 	TCP 	UDP 	Cross Fire
+13076 	TCP 	– 	BMC Software Control-M/Enterprise Manager 	offiziell
+13666 	TCP 	UDP 	LCDproc Daemon 	inoffiziell
+13195–13196 	TCP 	UDP 	Ontolux Ontolux 2D 	inoffiziell
+13720–13721 	TCP 	UDP 	Symantec NetBackup/VERITAS 	offiziell
+13724 	TCP 	UDP 	Symantec Network Utility – vnetd/VERITAS 	offiziell
+13782 	TCP 	UDP 	Symantec NetBackup/VERITAS 	offiziell
+13783 	TCP 	UDP 	Symantec VOPIED protocol (VERITAS) 	offiziell
+13785 	TCP 	UDP 	Symantec NetBackup Database – nbdb (VERITAS) 	offiziell
+13786 	TCP 	UDP 	Symantec nomdb (VERITAS) 	offiziell
+14439 	TCP 	– 	APRS UI-View Amateur Radio[79] UI-WebServer 	inoffiziell
+14567 	– 	UDP 	Battlefield 1942 	inoffiziell
+14942 	TCP 	– 	Trend Micro ServerProtect for Linux (SPLX) 3.0 web console can be accessed using Hypertext Transfer Protocol (HTTP) 	inoffiziell
+14943 	TCP 	– 	Trend Micro ServerProtect for Linux (SPLX) 3.0 web console can be accessed using HTTPS (Hypertext Transfer Protocol over SSL/TLS) 	inoffiziell
+15000 	TCP 	– 	psyBNC 	inoffiziell
+15000 	TCP 	– 	Wesnoth 	inoffiziell
+15000 	TCP 	– 	Kaspersky Network Agent 	inoffiziell
+15000 	TCP 	– 	hydap 	offiziell
+15000 	– 	UDP 	hydap 	offiziell
+15345 	TCP 	UDP 	XPilot 	offiziell
+15567 	– 	UDP 	Battlefield Vietnam 	inoffiziell
+15672 	TCP 	– 	RabbitMQ management console (Pivotal Software) 	inoffiziell
+16000 	TCP 	– 	shroudBNC 	inoffiziell
+16080 	TCP 	– 	Mac OS X Server Web (HTTP) service 	inoffiziell
+16384 	– 	UDP 	Iron Mountain Digital online Backup 	inoffiziell
+16567 	– 	UDP 	Battlefield 2 	inoffiziell
+16992 	TCP 	UDP 	Intel(R) Active Management Technology (AMT) 	offiziell
+17475 	TCP 	– 	DMXControl 3 Network Broker 	inoffiziell
+17500 	TCP 	– 	Dropbox LanSync Protocol (db-lsp) 	offiziell
+17500 	– 	UDP 	Dropbox LanSync Discovery (db-lsp-disc) 	offiziell
+18010 	TCP 	– 	Super Dancer Online Extreme(SDO-X) – CiB Net Station Malaysia Server 	inoffiziell
+18104 	TCP 	– 	RAD PDF Service 	offiziell
+18180 	TCP 	– 	DART Reporting server 	inoffiziell
+18200 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server – Status/Version Check 	inoffiziell
+18201 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server 	inoffiziell
+18206 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft Thailand Server – FAM Database 	inoffiziell
+18300 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server – Status/Version Check 	inoffiziell
+18301 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server 	inoffiziell
+18306 	TCP 	UDP 	Audition Online Dance Battle, AsiaSoft SEA Server – FAM Database 	inoffiziell
+18400 	TCP 	UDP 	Audition Online Dance Battle, KAIZEN Brazil Server – Status/Version Check 	inoffiziell
+18401 	TCP 	UDP 	Audition Online Dance Battle, KAIZEN Brazil Server 	inoffiziell
+18505 	TCP 	UDP 	Audition Online Dance Battle, Nexon Server – Status/Version Check 	inoffiziell
+18506 	TCP 	UDP 	Audition Online Dance Battle, Nexon Server 	inoffiziell
+18605 	TCP 	UDP 	X-BEAT – Status/Version Check 	inoffiziell
+18606 	TCP 	UDP 	X-BEAT 	inoffiziell
+19000 	TCP 	UDP 	Audition Online Dance Battle, G10/alaplaya Server – Status/Version Check 	inoffiziell
+19001 	TCP 	UDP 	Audition Online Dance Battle, G10/alaplaya Server 	inoffiziell
+19132 	? 	? 	Minecraft Pocket Edition[80] 	inoffiziell
+19226 	TCP 	– 	Panda Software AdminSecure Communication Agent 	inoffiziell
+19283 	TCP 	UDP 	K2 – KeyAuditor & KeyServer, Sassafras Software Inc. Lizenzmanagement Werkzeuge 	offiziell
+19294 	TCP 	– 	Google Talk Voice and Video connections[81] 	inoffiziell
+19295 	– 	UDP 	Google Talk Voice and Video connections[81] 	inoffiziell
+19302 	– 	UDP 	Google Talk Voice and Video connections[81] 	inoffiziell
+19315 	TCP 	UDP 	KeyShadow for K2 – KeyAuditor & KeyServer, Sassafras Software Inc. Lizenzmanagement Werkzeuge 	offiziell
+19638 	TCP 	– 	Ensim Control Panel 	inoffiziell
+19812 	TCP 	– 	4D database SQL Communication 	inoffiziell
+19813 	TCP 	– 	4D database Client Server Communication 	inoffiziell
+19814 	TCP 	– 	4D database DB4D Communication 	inoffiziell
+19999 	– 	– 	DNP – Secure (Distributed Network Protocol – Secure), a secure version of the protocol used in SCADA systems between communicating RTUs and IEDs 	offiziell
+20000 	– 	– 	DNP (Distributed Network Protocol), a protocol used in SCADA systems between communicating RTUs and IEDs 	offiziell
+20000 	– 	– 	Usermin, Web-based user tool 	inoffiziell
+20014 	TCP 	– 	DART Reporting server 	inoffiziell
+20720 	TCP 	– 	Symantec i3 Web GUI server 	inoffiziell
+21001 	TCP 	– 	AMLFilter, AMLFilter Inc. amlf-admin Standardport 	inoffiziell
+21011 	TCP 	– 	AMLFilter, AMLFilter Inc. amlf-engine-01 HTTP Standardport 	inoffiziell
+21012 	TCP 	– 	AMLFilter, AMLFilter Inc. amlf-engine-01 HTTPS Standardport 	inoffiziell
+21021 	TCP 	– 	AMLFilter, AMLFilter Inc. amlf-engine-02 HTTP Standardport 	inoffiziell
+21022 	TCP 	– 	AMLFilter, AMLFilter Inc. amlf-engine-02 HTTPS Standardport 	inoffiziell
+22000 	TCP 	– 	ZVT-Protokoll (Zahlungsverkehrterminal) Standardport 	inoffiziell
+22136 	TCP 	– 	FLIR Systems Camera Resource Protocol 	inoffiziell
+22222 	TCP 	– 	Davis Instruments, WeatherLink IP 	inoffiziell
+22347 	TCP 	UDP 	WibuKey, WIBU-SYSTEMS AG Kopierschutz 	offiziell
+22350 	TCP 	UDP 	CodeMeter, WIBU-SYSTEMS AG Kopierschutz 	offiziell
+22351 	TCP 	– 	CodeMeter-CmWAN WIBU-SYSTEMS AG Kopierschutz 	offiziell
+23073 	– 	– 	Soldat Ausgewiesener Server 	inoffiziell
+23399 	– 	– 	Skype Standard Protokoll 	inoffiziell
+23513 	– 	– 	Duke Nukem 3D Duke Nukem Ports 	inoffiziell
+24444 	– 	– 	NetBeans IDE 	inoffiziell
+24465 	TCP 	UDP 	Tonido Directory Server für Tonido, eine Personal Web App- und P2P-Plattform 	offiziell
+24554 	TCP 	UDP 	BINKP, FidoNet mail transfers over TCP/IP 	offiziell
+24800 	– 	– 	Synergy: KVM Software 	inoffiziell
+24842 	– 	– 	StepMania: Online: Dance Dance Revolution Simulator 	inoffiziell
+25565 	TCP 	– 	Minecraft Ausgewiesener Server 	offiziell
+25565 	– 	– 	MySQL Standard MySQL Port 	inoffiziell
+25577 	– 	– 	Minecraft BungeeCord Server 	inoffiziell
+25888 	– 	UDP 	Xfire (Firewall Report, UDP_IN) 	inoffiziell
+25999 	TCP 	– 	Xfire 	inoffiziell
+26000 	– 	UDP 	Quake von id Software 	offiziell
+26000 	TCP 	– 	Quake von id Software 	offiziell
+26000 	TCP 	– 	EVE Online MMORPG von CCP 	inoffiziell
+26900 	TCP 	– 	EVE Online MMORPG von CCP 	inoffiziell
+26901 	TCP 	– 	EVE Online MMORPG von CCP 	inoffiziell
+27000 	– 	UDP 	(bis 27006) Hauptserver für QuakeWorld von id Software 	inoffiziell
+27000–27009 	TCP 	– 	FLEXnet Publishers License server 	inoffiziell
+27010 	– 	– 	Source Engine reservierter Serverport 	inoffiziell
+27014 	– 	– 	Source Engine reservierter Serverport (selten) 	inoffiziell
+27015 	– 	– 	GoldSrc und Source Engine reservierter Serverport 	inoffiziell
+27016 	– 	– 	Magicka Serverport 	inoffiziell
+27017 	– 	– 	mongoDB Serverport 	inoffiziell
+27036 	– 	UDP 	Steam In-Home-Streaming Discovery-Protokoll 	inoffiziell
+27374 	– 	– 	Sub7 Standard 	inoffiziell
+27500 	– 	UDP 	(bis 27900) QuakeWorld von id Software 	inoffiziell
+27632 	TCP 	– 	Sniper Ghost Warrior von Interactive 	inoffiziell
+27888 	– 	UDP 	Kaillera Server 	inoffiziell
+27900–27901 	– 	– 	Nintendo Wi-Fi Connection 	inoffiziell
+27901 	– 	UDP 	(bis 27910) Hauptserver für Quake II von id Software 	inoffiziell
+27960 	– 	UDP 	(bis 27969) Enemy Territory von Activision, Quake III Arena, Quake III und Quake Live von id Software sowie einige von ioquake3 abgeleitete Spiele 	inoffiziell
+28000 	– 	– 	Bitfighter Standard Bitfighter Server 	inoffiziell
+28001 	– 	– 	Starsiege: Tribes Standard Tribes v.1 Server 	inoffiziell
+28395 	TCP 	– 	SmartSystemsLLC.com Smart Sale 5.0 	inoffiziell
+28763 	– 	UDP 	AssaultCube Server 	inoffiziell
+28910 	– 	– 	Nintendo Wi-Fi Connection 	inoffiziell
+28960 	– 	UDP 	Call of Duty; Call of Duty: United Offensive; Call of Duty 2; Call of Duty 4: Modern Warfare; Call of Duty: World at War (PC Version) 	inoffiziell
+29000 	– 	– 	Perfect World International 	inoffiziell
+29900–29901 	– 	– 	Nintendo Wi-Fi Connection 	inoffiziell
+29920 	– 	– 	Nintendo Wi-Fi Connection 	inoffiziell
+30000 	– 	– 	Pokémon Netbattle 	inoffiziell
+30033 	TCP 	– 	TeamSpeak 3 DateiTransfer 	inoffiziell
+30301 	– 	– 	BitTorrent 	inoffiziell
+30564 	TCP 	– 	Multiplicity: keyboard/mouse/clipboard sharing software 	inoffiziell
+30464-30718 	– 	UDP 	Kaba Gruppe, BCLAN 	inoffiziell
+30718 	– 	UDP 	Lantronix 	inoffiziell
+30777 	TCP 	– 	ZangZing agent 	inoffiziell
+31337 	TCP 	– 	Back Orifice – Fernwartung (oft jedoch Trojanisches Pferd) 	inoffiziell
+31415 	– 	– 	ThoughtSignal – Server Communication Service 	inoffiziell
+31456 	TCP 	– 	TetriNET IRC Gateway 	inoffiziell
+31457 	TCP 	– 	TetriNET 	offiziell
+31458 	TCP 	– 	TetriNET 	inoffiziell
+32123 	TCP 	– 	x3Lobby 	inoffiziell
+32245 	TCP 	– 	MMTSG-mutualed over MMT 	inoffiziell
+32400 	TCP 	– 	Plex Media Server 	inoffiziell
+32769 	TCP 	– 	FileNet RPC 	inoffiziell
+32976 	TCP 	– 	LogMeIn Hamachi 	inoffiziell
+33434 	TCP 	UDP 	traceroute 	offiziell
+34443 	– 	– 	Linksys PSUS4 print server 	inoffiziell
+36963 	– 	UDP 	Counter Strike 2D 	inoffiziell
+37659 	TCP 	– 	Axence nVision 	inoffiziell
+37777 	TCP 	– 	Digital Video Recorder hardware 	inoffiziell
+38000 	TCP 	– 	InfoVista Server Database[82] 	offiziell
+38001-38500 	TCP 		PCS IT-Trading Tradecontrol 	inoffiziell
+40000 	TCP 	UDP 	SafetyNET p Echtzeit Industrial Ethernet 	offiziell
+40001 	TCP 	UDP 	JamesWebster port Echtzeit Industrial Ethernet 	offiziell
+41144 	TCP 	– 	TeamSpeak DNS (TSDNS) 	inoffiziell
+41823 	TCP 	UDP 	Murealm Client 	inoffiziell
+43047 	TCP 	– 	TheòsMessenger 	offiziell
+43048 	TCP 	– 	TheòsMessenger 	offiziell
+43594–43595 	TCP 	– 	Jagex, RuneScape, FunOrb etc. 	inoffiziell
+44818 	TCP 	UDP 	EtherNet/IP (Industrial Ethernet) 	offiziell
+47808 	TCP 	UDP 	BACnet 	offiziell
+48898 	TCP 	– 	Automation Device Specification (Beckhoff Automation)[83] 	inoffiziell
+48899 	– 	UDP 	Automation Device Specification (Beckhoff Automation)[83] 	inoffiziell
+49000 	TCP 	UDP 	Server für Statusinformationen, SOAP (z. B. bei Fritz!Box) 	inoffiziell
+49151 	TCP 	UDP 	reserviert 	offiziell 
+
+
+Dynamische Port-Bereiche von 49152 - 65535
+
+51820 	- 	UDP 	WireGuard 	inoffiziell
+57621 	- 	UDP 	Spotify 	inoffiziell
+60000–61000 	TCP 	UDP 	Mosh 	inoffiziell
+64738 	TCP 	UDP 	Mumble 	inoffiziell 
+
