@@ -1,0 +1,4 @@
+﻿  pwdcracker.cpp
+D:\Programming\C++\C++ Projekte\Hacking\pwdcracker\pwdcracker\pwdcracker\pwdcracker.cpp(288,13): warning C4101: "y": Unreferenzierte lokale Variable
+D:\Programming\C++\C++ Projekte\Hacking\pwdcracker\pwdcracker\pwdcracker\pwdcracker.cpp(288,10): warning C4101: "x": Unreferenzierte lokale Variable
+  pwdcracker.vcxproj -> D:\Programming\C++\C++ Projekte\Hacking\pwdcracker\pwdcracker\Debug\pwdcracker.exe
