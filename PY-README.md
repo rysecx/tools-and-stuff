@@ -9,7 +9,7 @@ BMI-Counter.py -- simple bmi-counter
 
 Ultron.py --  is my own creation of summing up different tools in one tool. 
  
-backup.py -- backupscript to backup files(automation is still in developing)
+backup.py -- backupscript to backup files(automation is still in developement)
 
 image-download.py -- example code of downloading images
 
